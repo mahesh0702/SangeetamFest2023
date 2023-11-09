@@ -1,96 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Sangeetam</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon " type="image/x-icon " href="img/favicon.png" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Sangeetam</title>
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <!-- Favicon -->
-  <link rel="shortcut icon " type="image/x-icon " href="img/favicon.png">
+    <!-- external css  -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
 
-  <!-- external css  -->
-  <link rel="stylesheet" href="./css/index.css">
+  <body>
+    <!-- Navbar -->
 
-
-</head>
-
-<body>
-
-  <!-- Navbar -->
-
-  <nav class=" fixed z-50 w-full p-5 bg-orange-400 md:flex  md:items-center md:justify-between">
-    <div class="flex justify-between items-center ">
-      <div class="logo-area ">
-        <a href="index.html ">
-          <img src="img/logo-dark2.png " alt="logo ">
-        </a>
+    <nav
+      class="fixed z-50 w-full p-5 bg-orange-400 md:flex md:items-center md:justify-between"
+    >
+      <div class="flex justify-between items-center">
+        <div class="logo-area">
+          <a href="index.html ">
+            <img src="img/logo-dark2.png " alt="logo " />
+          </a>
+        </div>
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+        </span>
       </div>
-      <span class="text-3xl cursor-pointer mx-2 md:hidden block">
-        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
-      </span>
-    </div>
 
-    <ul
-      class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-orange-400 w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
-      <li class="mx-4 my-6 md:my-0">
-        <a href="#" class="text-xl hover:text-cyan-500 duration-500">Home</a>
-      </li>
-      <li class="mx-4 my-6 md:my-0">
-        <a href="#" class="text-xl hover:text-cyan-500 duration-500">Schedule</a>
-      </li>
-      <li class="mx-4 my-6 md:my-0">
-        <a href="#" class="text-xl hover:text-cyan-500 duration-500">Events</a>
-      </li>
-      <li class="mx-4 my-6 md:my-0">
-        <a href="#" class="text-xl hover:text-cyan-500 duration-500">Sponsors</a>
-      </li>
-      <li class="mx-4 my-6 md:my-0">
-        <a href="#" class="text-xl hover:text-cyan-500 duration-500">Contact</a>
-      </li>
+      <ul
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-orange-400 w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+      >
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-cyan-500 duration-500">Home</a>
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-cyan-500 duration-500"
+            >Schedule</a
+          >
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-cyan-500 duration-500"
+            >Events</a
+          >
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-cyan-500 duration-500"
+            >Sponsors</a
+          >
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-cyan-500 duration-500"
+            >Contact</a
+          >
+        </li>
 
-      <button class="bg-orange-400 border-inherit rounded-lg border-solid border text-xl duration-500 px-3 py-2 mx-2 hover:bg-cyan-500 rounded ">
-        Register
-      </button>
-      <h2 class=""></h2>
-    </ul>
-  </nav>
+        <button
+          class="bg-orange-400 border-inherit rounded-lg border-solid border text-xl duration-500 px-3 py-2 mx-2 hover:bg-cyan-500 rounded"
+        >
+          Register
+        </button>
+        <h2 class=""></h2>
+      </ul>
+    </nav>
 
+    <div id="main">
+      <!-- herosection  -->
 
+      <div id="hero" class="w-full h-screen flex justify-center bg-black">
+        <div id="festName" class="w-4/5 h-screen">
+          <h1
+            id="title"
+            class="w-full h-max text-center text-violet-600 bg-zinc-800 text-6xl pb-3"
+          >
+            <u>Sangeetam 2k23</u>
+          </h1>
+        </div>
+      </div>
+      <div id="timer" class="w-full text-center text-4xl bg-violet-400">
+        <h2>Event starts in :</h2>
+        <p id="time"></p>
+      </div>
+      <div
+        id="about-sangeetam"
+        class="text-center my-10 p-5 bg-gradient-to-r from-purple-500 to-blue-500"
+      >
+        <h1 class="text-3xl font-bold mb-4">About Sangeetam</h1>
+        <p class="text-justify mx-12 mb-2">
+          "Sangeetam 2023," the eagerly awaited annual cultural extravaganza of
+          Shobhit Deemed University, goes beyond a mere celebration of art and
+          culture. It embodies unity, diversity, and limitless creativity. With
+          the theme "Harmonizing Cultures, Amplifying Talents," the festival
+          signifies a dedication to fostering mutual respect, cross-cultural
+          understanding, and the celebration of multifaceted talents. Its core
+          objective is to weave a vibrant tapestry of cultures, offering a
+          dynamic platform for students to express their identities, showcase
+          their talents, and nurture innovative ideas.
+        </p>
 
-  <div id="main">
+        <p class="text-justify mx-12 mb-2">
+          This event is more than a festival; it's an opportunity for everyone
+          to find belonging amidst the rich mosaic of cultures that enrich the
+          university. The diverse program includes performances, art
+          exhibitions, interactive sessions, fashion showcases, entrepreneurial
+          insights, literary evenings, and a star-studded finale, aiming to
+          unify, deepen understanding, and encourage collaboration among
+          students.
+        </p>
 
+        <p class="text-justify mx-12">
+          Ultimately, "Sangeetam 2023" reflects the university's commitment to a
+          thriving, harmonious, and culturally enriched community, inviting all
+          to join in celebrating the beauty of diverse cultures and talents.
+        </p>
+      </div>
 
-    <!-- herosection  -->
+      <div
+        id="about-university"
+        class="text-center my-10 p-5 bg-gradient-to-r from-purple-500 to-blue-500"
+      >
+        <h1 class="text-3xl font-bold mb-4">About Shobhit University</h1>
+        <p class="text-justify mx-12 mb-2">
+          "Sangeetam 2023," the eagerly awaited annual cultural extravaganza of
+          Shobhit Deemed University, goes beyond a mere celebration of art and
+          culture. It embodies unity, diversity, and limitless creativity. With
+          the theme "Harmonizing Cultures, Amplifying Talents," the festival
+          signifies a dedication to fostering mutual respect, cross-cultural
+          understanding, and the celebration of multifaceted talents. Its core
+          objective is to weave a vibrant tapestry of cultures, offering a
+          dynamic platform for students to express their identities, showcase
+          their talents, and nurture innovative ideas.
+        </p>
 
-    <div id="hero" class="w-full h-screen flex justify-center bg-black">
-      <div id="festName" class="w-4/5 h-screen">
-        <h1 id="title" class="w-full h-max text-center text-violet-600 bg-zinc-800 text-6xl pb-3"><u>Sangeetam 2k23</u>
-        </h1>
+        <p class="text-justify mx-12 mb-2">
+          This event is more than a festival; it's an opportunity for everyone
+          to find belonging amidst the rich mosaic of cultures that enrich the
+          university. The diverse program includes performances, art
+          exhibitions, interactive sessions, fashion showcases, entrepreneurial
+          insights, literary evenings, and a star-studded finale, aiming to
+          unify, deepen understanding, and encourage collaboration among
+          students.
+        </p>
+
+        <p class="text-justify mx-12">
+          Ultimately, "Sangeetam 2023" reflects the university's commitment to a
+          thriving, harmonious, and culturally enriched community, inviting all
+          to join in celebrating the beauty of diverse cultures and talents.
+        </p>
+        <button
+          onclick="window.open(`https://www.shobhituniversity.ac.in/`);"
+          target="_blank"
+          class="p-2 border-2 border-black border-solid rounded-md"
+        >
+          More Info
+        </button>
       </div>
     </div>
-    <div id="timer" class="w-full text-center text-4xl bg-violet-400">
-      <h2>Event starts in : </h2>
-      <p id="time"></p>
 
-    </div>
-  </div>
+    <!--external js file  -->
+    <script src="./scripts/script.js"></script>
 
-
-  <!--external js file  -->
-  <script src="./scripts/script.js"></script>
-
-  <!-- Hamburger Function -->
-  <script>
-    function Menu(e) {
-      let list = document.querySelector('ul');
-      e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
-    }
-  </script>
-
-</body>
-
+    <!-- Hamburger Function -->
+    <script>
+      function Menu(e) {
+        let list = document.querySelector("ul");
+        e.name === "menu"
+          ? ((e.name = "close"),
+            list.classList.add("top-[80px]"),
+            list.classList.add("opacity-100"))
+          : ((e.name = "menu"),
+            list.classList.remove("top-[80px]"),
+            list.classList.remove("opacity-100"));
+      }
+    </script>
+  </body>
 </html>
