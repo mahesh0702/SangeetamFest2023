@@ -1,6 +1,6 @@
 
 let id=Math.ceil(Math.random()*4)
- document.getElementById("festName").style.backgroundImage=`linear-gradient(180deg,rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url(./img/hero-section/${id}.jpg)`
+ document.getElementById("festName").style.backgroundImage=` linear-gradient(90deg, rgba(119,118,126,0.3561799719887955) 98%, rgba(221,211,223,0.2861519607843137) 100%),url(./img/hero-section/${id}.jpg)`
    
 
 // CountDown Timer 
