@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   --bg-color1: #0d0745;
+  --bg-color2: #0b0638;
 }
 html,
 body {
@@ -11,9 +12,7 @@ body {
   background: #0d0745;
   color: rgb(248 250 252);
 }
-.container {
-  width: 96%;
-}
+
 #festName {
   position: relative;
   background-position: center;
@@ -30,4 +29,12 @@ body {
 }
 #queryarea {
   resize: none;
+}
+
+/* #timer {
+  background-color: var(--bg-color1);
+} */
+#venue,
+#about-university {
+  background-color: var(--bg-color2);
 }
