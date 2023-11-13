@@ -1,28 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --bg-color1: #0d0745;
 }
-html,body{
-    width: 100%;
-    height: 100%;
-    background: #0D0745;
-color: rgb(248 250 252);
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #0d0745;
+  color: rgb(248 250 252);
 }
-#festName{
-    position: relative;
-    background-position:center;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
+.container {
+  width: 96%;
+}
+#festName {
+  position: relative;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-#title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); 
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-#queryarea{
-    resize: none;
+#queryarea {
+  resize: none;
 }
