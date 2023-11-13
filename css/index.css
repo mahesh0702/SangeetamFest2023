@@ -35,6 +35,7 @@ body {
   background-color: var(--bg-color1);
 } */
 #venue,
-#about-university {
+#about-university,
+#navbar {
   background-color: var(--bg-color2);
 }
