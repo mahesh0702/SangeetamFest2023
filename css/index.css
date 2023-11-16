@@ -12,10 +12,19 @@ body {
   background: #0d0745;
   color: rgb(248 250 252);
 }
-
-#festName {
+::-webkit-scrollbar{
+  display: none;
+}
+#hero{
   position: relative;
+  
+}
+#festName {
+  position: absolute;
+  top: 0;
+  left: 0;
   background-position: center;
+  opacity: 0.5;
   overflow: hidden;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -23,6 +32,10 @@ body {
 
 #title {
   position: absolute;
+  width: 100%;
+  text-align: center;
+  /* height: 10%; */
+  
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -31,11 +44,10 @@ body {
   resize: none;
 }
 
-/* #timer {
-  background-color: var(--bg-color1);
-} */
+
 #venue,
 #about-university,
-#navbar {
+#navbar,#faq{
   background-color: var(--bg-color2);
 }
+

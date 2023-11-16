@@ -1,7 +1,4 @@
-window.onscroll = function () {
-  scrollFunction();
-};
-
+// translucent navbar on scroll 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("navbar").style.background = "transparent";
@@ -10,11 +7,29 @@ function scrollFunction() {
     document.getElementById("navbar").style.backgroundColor = "#0d0745";
   }
 }
+window.onscroll = function () {
+  scrollFunction();
+};
 
+
+// hamburger function 
+function Menu(e) {
+  let list = document.querySelector("ul");
+  e.name === "menu"
+    ? ((e.name = "close"),
+      list.classList.add("top-[80px]"),
+      list.classList.add("opacity-100"))
+    : ((e.name = "menu"),
+      list.classList.remove("top-[80px]"),
+      list.classList.remove("opacity-100"));
+}
+
+// random image at hero section 
 let id = Math.ceil(Math.random() * 4);
 document.getElementById(
   "festName"
-).style.backgroundImage = ` linear-gradient(90deg, rgba(119,118,126,0.3561799719887955) 98%, rgba(221,211,223,0.2861519607843137) 100%),url(./img/hero-section/${id}.jpg)`;
+).style.backgroundImage = `url(./img/hero-section/${id}.jpg)`;
+
 
 // CountDown Timer
 var countDownDate = new Date("December 8, 2023 00:00:00").getTime();
@@ -42,3 +57,6 @@ var x = setInterval(function () {
     document.getElementById("time").innerHTML = "00:00:00";
   }
 }, 1000);
+
+
+
