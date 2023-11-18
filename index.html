@@ -57,7 +57,7 @@
         </li>
         <li class="mx-4 my-6 md:my-0">
           <a
-            href="#"
+            href="#events"
             class="text-xl text-slate-50 hover:text-sky-300 duration-500"
             >Events</a
           >
@@ -211,12 +211,92 @@
     </section>
 
     <!-- Events -->
+    
+        <section>
+          <h1 id="events" class="text-3xl font-bold pb-7 text-center capitalize">
+            Events
+          </h1>
+          <div class="px-4 grid mb-5 sm:grid-cols-1 md:grid-cols-3 gap-5">
+            <!--Event 1-->
+            <div class="bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center mt-3">Event 1</h1>
+              <img src="./img/events-section/event.jpg" alt="pepsi" />
+            </div>
+            <!--Event 2-->
+            <div class="bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center mt-3">Event 2</h1>
+              <img src="./img/events-section/event.jpg" alt="pepsi" />
+            </div>
+    
+            <!--Event 3-->
+            <div class="bg-gray-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center mt-3">Event 3</h1>
+              <img src="./img/events-section/event.jpg" alt="pepsi" />
+            </div>
+            <!--Event 4-->
+            <div  class="box hidden bg-gray-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center mt-3">Event 4</h1>
+              <img src="./img/events-section/event.jpg" alt="pepsi" />
+            </div>
+            <!--Event 5-->
+            <div  class="box hidden bg-amber-700 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center mt-3">Event 5</h1>
+              <img src="./img/events-section/event.jpg" alt="pepsi" />
+            </div>
+    
+            <!--Event 6-->
+            <div
+              class="box hidden bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl overflow-hidden"
+            >
+              <h1 class="font-bold text-xl text-center mt-3">Event 6</h1>
+              <img src="./img/events-section/event.jpg" alt="pepsi" />
+            </div>
+    
+            <!-- Event 7 -->
+            <div  class="box hidden bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center mt-3">Event 7</h1>
+              <img src="./img/events-section/event.jpg" alt="pepsi" />
+            </div>
+            <!-- Event 8 -->
+            <div  class="box hidden bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center mt-3">Event 8</h1>
+              <img src="./img/events-section/event.jpg" alt="pepsi" />
+            </div>
+            <!-- Event 9 -->
+            <div  class="box hidden bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center mt-3">Event 9</h1>
+              <img src="./img/events-section/event.jpg" alt="pepsi" />
+            </div>
+            <!-- Event 10 -->
+            <div  class="box hidden bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center mt-3">Event 10</h1>
+              <img src="./img/events-section/event.jpg" alt="pepsi" />
+            </div>
+    
+            <!-- Event 11 -->
+            <div  class="box hidden bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center mt-3">Event 11</h1>
+              <img src="./img/events-section/event.jpg" alt="pepsi" />
+            </div>
+    
+            <!-- Event 12 -->
+            <div  class="box hidden bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center mt-3">Event 12</h1>
+              <img src="./img/events-section/event.jpg" alt="pepsi" />
+            </div>
+          </div>
+          <div class="w-full flex justify-center">
+            <button id="hideBtn" class="my-6 mx-auto border-2 border-transparent rounded-lg w-max px-4 bg-blue-600">Show More</button>
 
+          </div>
+          
+          
+        </section>   
     <!-- sponsors  -->
-    <section>
+    <section id="sponsors">
       <h1
-        id="sponsors"
-        class="text-3xl font-bold pb-7 text-center capitalize"
+        
+        class="text-3xl font-bold py-7 text-center capitalize"
       >
         Our Sponsors
       </h1>
@@ -757,9 +837,25 @@ University. You can find so many hotels and restrooms near our Campus to stay.
     <!--external js file  -->
     <script src="./scripts/script.js"></script>
 
-    <!-- Component: Photo Gallery carousel -->
+
+    <!-- these js don't work if inside a external js file  -->
     <script>
-      var glide09 = new Glide(".glide-09", {
+      // translucent navbar on scroll
+      function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.background = "transparent";
+    document.getElementById("navbar").style.backdropFilter = "blur(30px)";
+  } else {
+    document.getElementById("navbar").style.backgroundColor = "#0d0745";
+  }
+}
+window.onscroll = function () {
+  scrollFunction();
+};
+
+
+// Component: Photo Gallery carousel
+var glide09 = new Glide(".glide-09", {
         type: "carousel",
         autoplay: 1,
         animationDuration: 4500,
@@ -789,24 +885,6 @@ perView:4
     glide09.mount();
   </script>
 
-  <!-- scroll button : Bottom to TOP Javascript -->
-
-  <script>
-    var toTopButton = document.getElementById("to-top-button");
-    // When the user scrolls down 200px from the top of the document, show the button
-    window.onscroll = function () {
-      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        toTopButton.classList.remove("hidden");
-      } else {
-        toTopButton.classList.add("hidden");
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function goToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"></script>
 </body>
 
