@@ -8,6 +8,7 @@
 html,
 body {
   width: 100%;
+  scroll-behavior:smooth;
   height: 100%;
   background: #0d0745;
   color: rgb(248 250 252);
@@ -30,12 +31,10 @@ body {
   background-attachment: fixed;
 }
 
-#title {
+#title{
   position: absolute;
   width: 100%;
   text-align: center;
-  /* height: 10%; */
-  
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -43,11 +42,15 @@ body {
 #queryarea {
   resize: none;
 }
-
-
 #venue,
 #about-university,
-#navbar,#faq{
+#navbar,#sponsors{
   background-color: var(--bg-color2);
 }
 
+  
+.hidden {
+  display: none;
+}
+/* :-webkit-full-screen{
+} */
