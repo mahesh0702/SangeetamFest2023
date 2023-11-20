@@ -1,3 +1,25 @@
+//  scroll button : Bottom to TOP as well as translucent navbar on scroll
+
+let toTopButton = document.getElementById("to-top-button");
+// When the user scrolls down 200px from the top of the document, show the button
+window.onscroll = function () {
+  if (document.body.scrollTop > 140 || document.documentElement.scrollTop > 140) {
+    // document.getElementById("navbar").style.background = "transparent";
+    // document.getElementById("navbar").style.backdropFilter = "blur(30px)";
+   document.getElementById("navbar").classList.add("blurred");
+   toTopButton.classList.remove("hidden");
+  } else {
+    // document.getElementById("navbar").style.backgroundColor = "#0d0745";
+    document.getElementById("navbar").classList.remove("blurred");
+    toTopButton.classList.add("hidden");
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function goToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 
 
 // hamburger function 
@@ -6,8 +28,12 @@ function Menu(e) {
   e.name === "menu"
     ? ((e.name = "close"),
       list.classList.add("top-[80px]"),
-      list.classList.add("opacity-100"))
+      list.classList.add("opacity-100"),
+      list.classList.add("bg-transparent"),
+      list.classList.add("blurred"))
     : ((e.name = "menu"),
+
+      // list.classList.remove("blurred"),
       list.classList.remove("top-[80px]"),
       list.classList.remove("opacity-100"));
 }
@@ -65,18 +91,3 @@ document.getElementById('hideBtn').addEventListener('click', function() {
 });
 
 
-//  scroll button : Bottom to TOP Javascript
-let toTopButton = document.getElementById("to-top-button");
-// When the user scrolls down 200px from the top of the document, show the button
-window.onscroll = function () {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    toTopButton.classList.remove("hidden");
-  } else {
-    toTopButton.classList.add("hidden");
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function goToTop() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}

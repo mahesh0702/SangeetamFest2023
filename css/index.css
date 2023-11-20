@@ -25,7 +25,7 @@ body {
   top: 0;
   left: 0;
   background-position: center;
-  opacity: 0.5;
+  opacity: 0.9;
   overflow: hidden;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -43,14 +43,67 @@ body {
   resize: none;
 }
 #venue,
-#about-university,
-#navbar,#sponsors{
+#about-university,#sponsors{
   background-color: var(--bg-color2);
 }
-
+/* #navbar{
+  background-color: transparent;
+} */
+.blurred
+{
+/* filter: blur(20px); */
+backdrop-filter: blur(20px);
+}
   
 .hidden {
   display: none;
 }
 /* :-webkit-full-screen{
 } */
+.about{
+  position: relative;
+  overflow: hidden;
+
+}
+.about:before{
+  z-index: 1;
+  content: "";
+  width: 100%;
+  /* border: 2px solid red; */
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left:0;
+  background: url("../img/about-section/mandala.png.png") center no-repeat;
+  background-size: contain;
+animation-name:rotatebg ;
+animation-duration: 20s;
+opacity: 0.7;
+
+animation-iteration-count: infinite;
+animation-timing-function:linear;
+}
+@keyframes rotatebg {
+  0% {
+    transform: rotate(72deg);
+    opacity: 0.1;
+  }
+  25% {
+    transform: rotate(144deg);
+    opacity: 0.4;
+  }
+  50% {
+    transform: rotate(216deg);
+    opacity: 0.8;
+  }
+  75% {
+    transform: rotate(288deg);
+    opacity: 0.4;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0.1;
+  }
+}
+
+  
