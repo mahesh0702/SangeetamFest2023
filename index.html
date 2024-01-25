@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
 
     <!-- Favicon -->
-    <link rel="shortcut icon " type="image/x-icon " href="img/favicon.png" />
+    <link rel="shortcut icon " type="image/x-icon " href="img/logo.png" />
 
     <!-- external css  -->
     <link rel="stylesheet" href="./css/index.css" />
@@ -25,12 +25,14 @@
 
     <nav
       id="navbar"
-      class="fixed z-50 w-full p-5 md:flex md:items-center md:justify-between"
+      class="fixed z-40 w-full p-5 md:flex md:items-center md:justify-between"
     >
       <div class="flex justify-between items-center">
         <div class="logo-area">
           <a href="index.html ">
-            <img src="img/logo-dark2.png " alt="logo " />
+            <!-- <img src="img/Sangeetam-logo (1).png" alt="logo" class="inline w-16"/> -->
+            <!-- <img src="img/Sangeetam-logo.png" alt="logo-name" class="inline w-20 h-16"/> -->
+            <img src="img/Sangeetam-logo (1).png" alt="logo-name" class="inline w-20 h-16"/>
           </a>
         </div>
         <span class="text-3xl cursor-pointer mx-2 md:hidden block">
@@ -98,10 +100,10 @@
 
     <section
       id="timer"
-      class="w-full text-5xl my-10 md:flex justify-center ps-7"
+      class="w-full text-5xl my-10 md:flex justify-center"
     >
-      <h2 class="mb-4">Event starts in :&nbsp;</h2>
-      <p id="time"></p>
+      <h2 id="event-timer" class="text-center">Event starts in :&nbsp;</h2>
+      <p id="time" class="text-center"></p>
     </section>
 
     <section id="venue" class="w-full text-center my-10">
@@ -223,8 +225,8 @@
       </p>
       <button
         onclick="window.open(`https://www.shobhituniversity.ac.in/`);"
-        target="_blank"
-        class="my-10 z-50 relative mx-auto border-2 border-transparent rounded-lg w-max px-4 bg-blue-700"
+        target="blank"
+        class="my-10 z-30 relative mx-auto border-2 border-transparent rounded-lg w-max px-4 bg-blue-700"
       >
         More Info
       </button>
@@ -232,76 +234,76 @@
 
     <!-- Events -->
     
-        <section>
+        <section id="eventlist">
           <h1 id="events" class="text-3xl font-bold pb-7 text-center capitalize">
             Events
           </h1>
-          <div class="px-4 grid mb-5 sm:grid-cols-1 md:grid-cols-3 gap-5">
+          <div  class="px-4 grid mb-5 sm:grid-cols-1 md:grid-cols-3 gap-5">
             <!--Event 1-->
-            <div class="bg-amber-400 rounded-3xl overflow-hidden">
-              <h1 class="font-bold text-xl text-center mt-3">Event 1</h1>
+            <div id="1" class="desc bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center pt-3">Event 1</h1>
               <img src="./img/events-section/event.jpg" alt="pepsi" />
             </div>
             <!--Event 2-->
-            <div class="bg-amber-400 rounded-3xl overflow-hidden">
-              <h1 class="font-bold text-xl text-center mt-3">Event 2</h1>
+            <div id="2" class="desc bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center pt-3">Event 2</h1>
               <img src="./img/events-section/event.jpg" alt="pepsi" />
             </div>
     
             <!--Event 3-->
-            <div class="bg-gray-400 rounded-3xl overflow-hidden">
-              <h1 class="font-bold text-xl text-center mt-3">Event 3</h1>
+            <div id="3" class="desc bg-gray-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center pt-3">Event 3</h1>
               <img src="./img/events-section/event.jpg" alt="pepsi" />
             </div>
             <!--Event 4-->
-            <div  class="box hidden bg-gray-400 rounded-3xl overflow-hidden">
-              <h1 class="font-bold text-xl text-center mt-3">Event 4</h1>
+            <div id="4"  class="desc box hidden bg-gray-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center pt-3">Event 4</h1>
               <img src="./img/events-section/event.jpg" alt="pepsi" />
             </div>
             <!--Event 5-->
-            <div  class="box hidden bg-amber-700 rounded-3xl overflow-hidden">
-              <h1 class="font-bold text-xl text-center mt-3">Event 5</h1>
+            <div id="5"  class="desc box hidden bg-amber-700 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center pt-3">Event 5</h1>
               <img src="./img/events-section/event.jpg" alt="pepsi" />
             </div>
     
             <!--Event 6-->
-            <div
-              class="box hidden bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl overflow-hidden"
+            <div id="6"
+              class="desc box hidden bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl overflow-hidden"
             >
-              <h1 class="font-bold text-xl text-center mt-3">Event 6</h1>
+              <h1 class="font-bold text-xl text-center pt-3">Event 6</h1>
               <img src="./img/events-section/event.jpg" alt="pepsi" />
             </div>
     
             <!-- Event 7 -->
-            <div  class="box hidden bg-amber-400 rounded-3xl overflow-hidden">
-              <h1 class="font-bold text-xl text-center mt-3">Event 7</h1>
+            <div  id="7" class="desc box hidden bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center pt-3">Event 7</h1>
               <img src="./img/events-section/event.jpg" alt="pepsi" />
             </div>
             <!-- Event 8 -->
-            <div  class="box hidden bg-amber-400 rounded-3xl overflow-hidden">
-              <h1 class="font-bold text-xl text-center mt-3">Event 8</h1>
+            <div id="8" class="desc box hidden bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center pt-3">Event 8</h1>
               <img src="./img/events-section/event.jpg" alt="pepsi" />
             </div>
             <!-- Event 9 -->
-            <div  class="box hidden bg-amber-400 rounded-3xl overflow-hidden">
-              <h1 class="font-bold text-xl text-center mt-3">Event 9</h1>
+            <div id="9" class="desc box hidden bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center pt-3">Event 9</h1>
               <img src="./img/events-section/event.jpg" alt="pepsi" />
             </div>
             <!-- Event 10 -->
-            <div  class="box hidden bg-amber-400 rounded-3xl overflow-hidden">
-              <h1 class="font-bold text-xl text-center mt-3">Event 10</h1>
+            <div id="10" class="desc box hidden bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center pt-3">Event 10</h1>
               <img src="./img/events-section/event.jpg" alt="pepsi" />
             </div>
     
             <!-- Event 11 -->
-            <div  class="box hidden bg-amber-400 rounded-3xl overflow-hidden">
-              <h1 class="font-bold text-xl text-center mt-3">Event 11</h1>
+            <div id="11" class="desc box hidden bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="font-bold text-xl text-center pt-3">Event 11</h1>
               <img src="./img/events-section/event.jpg" alt="pepsi" />
             </div>
     
             <!-- Event 12 -->
-            <div  class="box hidden bg-amber-400 rounded-3xl overflow-hidden">
-              <h1 class="font-bold text-xl text-center mt-3">Event 12</h1>
+            <div id="12" class="desc box hidden bg-amber-400 rounded-3xl overflow-hidden">
+              <h1 class="border-2 border-amber-800 font-bold text-xl text-center pt-3">Event 12</h1>
               <img src="./img/events-section/event.jpg" alt="pepsi" />
             </div>
           </div>
