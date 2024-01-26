@@ -91,10 +91,7 @@ document.getElementById("hideBtn").addEventListener("click", function () {
   }
 });
 
-
-
-
-// all rules and regulation data along with their registration link 
+// all rules and regulation data along with their registration link
 let rulesAndReg = [
   {
     rules:
@@ -156,12 +153,10 @@ let rulesAndReg = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
     regbtn: "++++link+++++",
   },
-  
 ];
 
-
-// Event rules and regulation div 
-function makeadiv(image,rules,reg,title) {
+// Event rules and regulation div
+function makeadiv(image, rules, reg, title) {
   // outer div
   const outerDiv = document.createElement("div");
   outerDiv.setAttribute(
@@ -173,14 +168,16 @@ function makeadiv(image,rules,reg,title) {
   const innerDiv = document.createElement("div");
   innerDiv.setAttribute(
     "class",
-    "py-2 w-11/12 h-10/12 flex flex-col justify-center items-center bg-[#0b0638] relative top-0 left-0 rounded-2xl"
+    "py-5 w-11/12 h-10/12 flex flex-col justify-center items-center bg-[#0b0638] relative top-0 left-0 rounded-2xl"
   );
 
-
-  // event title 
-  const span=document.createElement("span")
-  span.innerText=title
-  span.setAttribute("class","w-60 absolute top-[15%] z-50 text-center bg-[rgba(0,0,0,0.56)] backdrop-blur-sm ")
+  // event title
+  const span = document.createElement("span");
+  span.innerText = title;
+  span.setAttribute(
+    "class",
+    "w-60 absolute top-[15%] z-50 text-center bg-[rgba(0,0,0,0.56)] backdrop-blur-sm "
+  );
   // event image
   const img = document.createElement("img");
   img.setAttribute("class", "w-60 h-36 border-2 border-slate-400 rounded-2xl ");
@@ -192,21 +189,21 @@ function makeadiv(image,rules,reg,title) {
 
   // register Button
   const regbtn = document.createElement("button");
-  regbtn.innerHTML = `<a href=${reg} class="mx-auto mt-1  rounded-lg w-max px-4 bg-blue-700" target="blank">Register Now</a>`;
+  regbtn.innerHTML = `<a href=${reg} class="mx-auto mt-2 rounded-lg w-max p-2 bg-blue-700" target="blank">Register Now</a>`;
 
   // close Button
   const clsbtn = document.createElement("button");
   clsbtn.style.borderRadius = "50%";
-  clsbtn.style.backgroundColor = "white";
+  // clsbtn.style.backgroundColor = "white";
   clsbtn.innerText = "❌";
   clsbtn.style.position = "absolute";
-  clsbtn.style.top = "0";
-  clsbtn.style.right = "0";
+  clsbtn.style.top = "2px";
+  clsbtn.style.right = "4px";
   clsbtn.addEventListener("click", () => {
     document.body.style.overflow = "auto";
     outerDiv.remove();
   });
-innerDiv.appendChild(span)
+  innerDiv.appendChild(span);
   innerDiv.appendChild(img);
   innerDiv.appendChild(div2);
   innerDiv.appendChild(regbtn);
@@ -221,11 +218,16 @@ desc.forEach((elem) => {
   elem.addEventListener(
     "click",
     (e) => {
-      document.body.style.overflow="hidden"
-      let {rules,regbtn} = rulesAndReg[Number(e.target.parentElement.id)-1]
-      makeadiv(e.target.currentSrc ||e.target.nextElementSibling.currentSrc,rules,regbtn,e.target.parentElement.innerText)
+      document.body.style.overflow = "hidden";
+      let { rules, regbtn } =
+        rulesAndReg[Number(e.target.parentElement.id) - 1];
+      makeadiv(
+        e.target.currentSrc || e.target.nextElementSibling.currentSrc,
+        rules,
+        regbtn,
+        e.target.parentElement.innerText
+      );
       // console.log(e)
-
     },
     false
   );
