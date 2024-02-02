@@ -1,5 +1,6 @@
 //  scroll button : Bottom to TOP as well as translucent navbar on scroll
 
+// document.getElementById("navbar").style.backgroundColor = "#0d0745";
 let toTopButton = document.getElementById("to-top-button");
 // When the user scrolls down 200px from the top of the document, show the button
 window.onscroll = function () {
@@ -9,11 +10,12 @@ window.onscroll = function () {
   ) {
     // document.getElementById("navbar").style.background = "transparent";
     // document.getElementById("navbar").style.backdropFilter = "blur(30px)";
-    document.getElementById("navbar").classList.add("blurred");
+    // document.getElementById("navbar").classList.add("blurred");
+    // document.getElementById("navbar-ul").classList.add("blurred");
     toTopButton.classList.remove("hidden");
   } else {
-    // document.getElementById("navbar").style.backgroundColor = "#0d0745";
-    document.getElementById("navbar").classList.remove("blurred");
+    // document.getElementById("navbar").classList.remove("blurred");
+    // document.getElementById("navbar-ul").classList.remove("blurred");
     toTopButton.classList.add("hidden");
   }
 };
