@@ -94,78 +94,109 @@ document.getElementById("hideBtn").addEventListener("click", function () {
 // all rules and regulation data along with their registration link
 let rulesAndReg = [
   {
-    overview: "A showcase of vocal talent, where individuals or groups perform to win the title of Sangeetam's best singer.",
-eligibility: "Open to solo performers or groups of 3-4 from any college or university.",
-rules:
-  "The maximum duration of the performance is 4 minutes. Only live singing is permitted; no backing tracks.   Offensive language is strictly prohibited.        Participants must submit their song choices for pre-approval.",
+    overview:
+      "A showcase of vocal talent, where individuals or groups perform to win the title of Sangeetam's best singer.",
+    eligibility:
+      "Open to solo performers or groups of 3-4 from any college or university.",
+    rules:
+      "The maximum duration of the performance is 4 minutes. Only live singing is permitted; no backing tracks.   Offensive language is strictly prohibited.        Participants must submit their song choices for pre-approval.",
 
-entry_fee: "₹100 for Shobhitians, ₹200 for participants from other institutes.",
-prize_money: "₹2000 for the winner.",
-judging_criteria: "Vocal quality, stage presence, originality, and audience response.",
+    entry_fee:
+      "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    prize_money: "₹2000 for the winner.",
+    judging_criteria:
+      "Vocal quality, stage presence, originality, and audience response.",
     regbtn: "https://forms.gle/dUXxzCrMAYd7DjRr7",
   },
   {
-    overview:" Poets and Shayars recite their compositions, showcasing the beauty of verse and prose.",
-eligibility: "Solo poets.",
-rules:"Recitations must not exceed 4 minutes.Submissions must be the participant’s own writing, free from offensive language.Pieces must be submitted beforehand for approval.",
-entry_fee: "₹100 for Shobhitians, ₹200 for participants from other institutes.",
-prize_money: "₹2000 for the most compelling recitation.",
-judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
+    overview:
+      " Poets and Shayars recite their compositions, showcasing the beauty of verse and prose.",
+    eligibility: "Solo poets.",
+    rules:
+      "Recitations must not exceed 4 minutes.Submissions must be the participant’s own writing, free from offensive language.Pieces must be submitted beforehand for approval.",
+    entry_fee:
+      "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    prize_money: "₹2000 for the most compelling recitation.",
+    judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/AcWaauT6dsBgxT5S7",
   },
   {
-    overview: "Bands compete to impress with their musical synergy and stage showmanship.",
-eligibility: "Groups of up to 6 musicians from any college or university.",
-rules:
-"Set must not exceed 15 minutes, including setup and takedown.No backing tracks all music must be played live.Offensive language in lyrics is strictly prohibited.",
-entry_fee:" ₹500 for Shobhitians, ₹1000 for participants from other institutes.",
-prize_money: "₹10000 for the winning band.",
-judging_criteria: "Musical arrangement, performance energy, audience response, and professionalism.",
+    overview:
+      "Bands compete to impress with their musical synergy and stage showmanship.",
+    eligibility: "Groups of up to 6 musicians from any college or university.",
+    rules:
+      "Set must not exceed 15 minutes, including setup and takedown.No backing tracks all music must be played live.Offensive language in lyrics is strictly prohibited.",
+    entry_fee:
+      " ₹500 for Shobhitians, ₹1000 for participants from other institutes.",
+    prize_money: "₹10000 for the winning band.",
+    judging_criteria:
+      "Musical arrangement, performance energy, audience response, and professionalism.",
     regbtn: "https://forms.gle/Vw9A88R4DbvSR2s36",
   },
   {
-    overview: "An event for those who communicate through strokes of a brush or pencil, expressing their artistic visions.",
-eligibility: "Solo participants.",
-rules:"Maximum duration for creating the artwork is 45 minutes.Participants must bring their own art supplies. Canvas shall be provided by the University.Artwork must be original and created on-site.The Artwork will become the property of the University.",
-entry_fee: "₹100 for Shobhitians, ₹200 for participants from other institutes.",
-prize_money: "₹5000 for the artwork that stands out in creativity and skill.",
-judging_criteria: "Creativity, technique, and overall aesthetic appeal.",
+    overview:
+      "An event for those who communicate through strokes of a brush or pencil, expressing their artistic visions.",
+    eligibility: "Solo participants.",
+    rules:
+      "Maximum duration for creating the artwork is 45 minutes.Participants must bring their own art supplies. Canvas shall be provided by the University.Artwork must be original and created on-site.The Artwork will become the property of the University.",
+    entry_fee:
+      "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    prize_money:
+      "₹5000 for the artwork that stands out in creativity and skill.",
+    judging_criteria: "Creativity, technique, and overall aesthetic appeal.",
     regbtn: "https://forms.gle/Z1EpGbg7X4SNnsEX8",
   },
   {
-    overview:" A glamorous event where pairs exhibit fashion and confidence on the runway.",
-eligibility: "Teams of two (one male and one female participant).",
-rules:"Costume Etiquette: Vulgar or offensive costumes are strictly prohibited. Cultural Sensibility: Participants should display cultural respect and avoid uncultured activities.",
-entry_fee: "₹200 for Shobhitians, ₹400 for participants from other institutes.",
-prize_money: "₹5000 for the pair that showcases the best walk, attire, and stage presence.",
-judging_criteria: "Confidence, attire, walk, and overall presentation.",
+    overview:
+      " A glamorous event where pairs exhibit fashion and confidence on the runway.",
+    eligibility: "Teams of two (one male and one female participant).",
+    rules:
+      "Costume Etiquette: Vulgar or offensive costumes are strictly prohibited. Cultural Sensibility: Participants should display cultural respect and avoid uncultured activities.",
+    entry_fee:
+      "₹200 for Shobhitians, ₹400 for participants from other institutes.",
+    prize_money:
+      "₹5000 for the pair that showcases the best walk, attire, and stage presence.",
+    judging_criteria: "Confidence, attire, walk, and overall presentation.",
     regbtn: "https://forms.gle/PF5iwd1gEAJuTpFe6",
   },
   {
-    overview: "An event for those who communicate through strokes of a brush or pencil, expressing their artistic visions.",
-    eligibility:" Solo participants.",
-rules:"Maximum duration for creating the artwork is 45 minutes.Participants must bring their own art supplies. Canvas shall be provided by the University.Artwork must be original and created on-site.The Artwork will become the property of the University.",
-entry_fee: '₹100 for Shobhitians, ₹200 for participants from other institutes.',
-prize_money: "₹5000 for the artwork that stands out in creativity and skill.",
-judging_criteria: "Creativity, technique, and overall aesthetic appeal.",
+    overview:
+      "An event for those who communicate through strokes of a brush or pencil, expressing their artistic visions.",
+    eligibility: " Solo participants.",
+    rules:
+      "Maximum duration for creating the artwork is 45 minutes.Participants must bring their own art supplies. Canvas shall be provided by the University.Artwork must be original and created on-site.The Artwork will become the property of the University.",
+    entry_fee:
+      "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    prize_money:
+      "₹5000 for the artwork that stands out in creativity and skill.",
+    judging_criteria: "Creativity, technique, and overall aesthetic appeal.",
     regbtn: "https://forms.gle/zuxyWVWGHRzRsyER6",
   },
   {
-    overview: "A contest for photographers to capture moments that reflect the theme provided.",
+    overview:
+      "A contest for photographers to capture moments that reflect the theme provided.",
     eligibility: "Solo participants.",
-    rules:"Participants must use their own cameras.Photographs must adhere to the theme provided in advance.Manipulation of photos is limited to basic adjustments; no digital art.",
-    entry_fee: "₹100 for Shobhitians, ₹200 for participants from other institutes.",
-    prize_money: "₹2000 for the photograph that best captures the theme with creativity and technical prowess.",
-    judging_criteria: "Composition, originality, relevance to the theme, and technical quality.",
+    rules:
+      "Participants must use their own cameras.Photographs must adhere to the theme provided in advance.Manipulation of photos is limited to basic adjustments; no digital art.",
+    entry_fee:
+      "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    prize_money:
+      "₹2000 for the photograph that best captures the theme with creativity and technical prowess.",
+    judging_criteria:
+      "Composition, originality, relevance to the theme, and technical quality.",
     regbtn: "https://forms.gle/Aw9tcpwgHzzvVX9M8",
   },
   {
-    overview: "Celebrating the rich cultural heritage of India, this event is for those who perform traditional and folk dances.",
-eligibility: "Duo performers or groups of up to 6 participants.",
-rules:"The maximum duration of the performance is 5 minutes. Language for music can be Hindi, English, or any regional language.Offensive language in music is strictly prohibited.",
-entry_fee: "₹200 for Shobhitians, ₹400 for participants from other institutes.",
-prize_money:"₹5000 for the best performance.",
-judging_criteria: "Authenticity, costumes, expression, and adherence to the traditional dance form.",
+    overview:
+      "Celebrating the rich cultural heritage of India, this event is for those who perform traditional and folk dances.",
+    eligibility: "Duo performers or groups of up to 6 participants.",
+    rules:
+      "The maximum duration of the performance is 5 minutes. Language for music can be Hindi, English, or any regional language.Offensive language in music is strictly prohibited.",
+    entry_fee:
+      "₹200 for Shobhitians, ₹400 for participants from other institutes.",
+    prize_money: "₹5000 for the best performance.",
+    judging_criteria:
+      "Authenticity, costumes, expression, and adherence to the traditional dance form.",
     regbtn: "https://forms.gle/UU7PzUWiMN479rWG6",
   },
   {
@@ -194,59 +225,153 @@ judging_criteria: "Authenticity, costumes, expression, and adherence to the trad
     regbtn: "https://forms.gle/AtSbbsLbVS62RTWx9",
   },
   {
+    overview:
+      "A showcase for dancers to express themselves freely, blending various dance styles. ",
+    eligibility: "Solo dancers or groups of up to 6 participants. ",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      "	Solo performances have a maximum duration of 4 minutes; groups have the same time limit.  	Language for any accompanying music can be Hindi, English, or any regional language.  Offensive language in music is strictly prohibited.",
+    entry_fee:
+      "₹100 for solo (Shobhitians), ₹200 for groups; ₹200 for solo and ₹400 for groups from other institutes. ",
+    prize_money: "₹3000 for solo winner, ₹5000 for winning group.",
+    judging_criteria:
+      " Originality, technique, synchronization (for groups), and overall performance. ",
     regbtn: "https://forms.gle/FycarAcFhfpFcxVL9",
   },
   {
+    overview:
+      "Celebrating the rich cultural heritage of India, this event is for those who perform traditional and folk dances.",
+    eligibility: " Solo performers or groups of up to 6 participants.",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      "The maximum duration of the performance is 5 minutes.  Language for music can be Hindi, English, or any regional language.  Offensive language in music is strictly prohibited.",
+    entry_fee:
+      " ₹200 for Shobhitians, ₹400 for participants from other institutes.",
+    prize_money: " ₹5000 for the best performance. ",
+    judging_criteria:
+      "Authenticity, costumes, expression, and adherence to the traditional dance form. ",
     regbtn: "https://forms.gle/j8xLYqZLqQiA2SsT8",
   },
   {
+    overview:
+      " An event for artists to create large-scale paintings live, this contest encourages creativity on a grand scale.",
+    eligibility: " Groups of up to 4 participants.",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      " Maximum painting time is 45 minutes.  Themes must be positive and must not potentially hurt regional or other sentiments 	Language for any text in the painting can be Hindi, English, or any regional language.",
+    entry_fee:
+      " ₹100 for Shobhitians, ₹200 for participants from other institutes.",
+
+    prize_money:
+      " ₹3000 for the group with the most impactful and creative wall painting.",
+    judging_criteria: " Creativity, message, technique, and visual impact.",
     regbtn: "https://forms.gle/dJcZTgQGM5cnd5bJ8",
   },
   {
+    overview:
+      " A display of artistic talent on a live canvas, participants bring designs to life on the face.",
+    ligibility: " Solo participants.",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      " Films must be completed within a 45-minute window.  Language can be Hindi, English, or any regional language.  Content must be appropriate, avoiding themes that could offend regional or other sentiments.",
+    entry_fee:
+      " ₹200 for Shobhitians, ₹400 for participants from other institutes.",
+    prize_money: " ₹2000 for the most creative and skillful face painting.",
+    judging_criteria: " Artistry, originality, and execution.",
     regbtn: "https://forms.gle/mtEzLMuPUvJyEbHYA",
   },
   {
+    overview:
+      "A powerful medium for storytelling, the Nukkad-Natak event is a platform for groups to perform plays in public spaces, addressing social issues.",
+    eligibility:
+      "The competition is open to all.  Each team must consist of a minimum of 8 and a maximum of 15 members.",
+    presentation:
+      " The duration of each Nukkad-Natak should be minimum of 8 minutes not exceed more than 15 minutes.	The use of vulgarity, obscenity, or any material that may hurt the sentiments of any individual or group is strictly prohibited. The Nukkad-Natak should be original and should not be a copy of any existing work.  The use of props and costumes is allowed, but they should be minimal and easy to carry.",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      " Abusive language will lead to disqualification. The use of any sound system or amplification is not allowed. The decision of the judges will be final and binding on all participants. ",
+    entry_fee: " ₹1000-/ ",
+    judging_criteria:
+      "Content and relevance to the theme.	Creativity and originality.	Script portray.	Acting performance.	Stage presence and communication. Teamwork. Expression of thought and impact on public. ",
+    winning_prize: "The prize for the winning team will be Rs. 5100-/",
     regbtn: "https://forms.gle/11U9q91TsZHa2gcf8",
   },
   {
-    rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    Overview:
+      "A test of imitation skills where solo performers mimic famous personalities or voices.",
+    Eligibility: " Solo performers.",
+    Rules:
+      "	Acts must not exceed 4 minutes.	Performances must not include offensive language or gestures.	Participants should ensure that the content is in good taste and not derogatory.",
+    entry_fee:
+      "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    prize_money:
+      "₹2000 for the performance that best combines accuracy and entertainment.",
+    judging_criteria:
+      "Similarity to the subject, creativity, humor, and audience reaction.",
     regbtn: "https://forms.gle/51V3hQnLwiRdUG8P6",
   },
   {
+    eligibility: "Group of up to 5 -7 participants.",
+    event_format:
+      " Each team will be given 6-8 minutes to perform a qawwali piece.",
+    judging_criteria:
+      " (Might be subject to change) Musicality  Cohesion	Authenticity	Audience engagement	Vocal quality and harmony. Rythm and tempo.Presentation and stage presence.	Adherence to qawwali piece.",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      "All the participants must be present at the registration desk at least 15 minutes before the start of the event.  Use of any vulgar, obscene, a disrespectful language will lead to disqualification.  The decision of the judges will be final and binding. Participating group must be in traditional attire. ",
+    entry_fee: " Rs.800 per team.",
+    prize_money:
+      "Rs.3100 for the group the best captures the essence of qawwali.",
     regbtn: "https://forms.gle/7LKKKut6fknaC7mY6",
   },
   {
+    overview:
+      " Contestants display their beatboxing prowess, using vocal percussion to create beats and rhythms.",
+    eligibility: "Open to solo beatboxers or duos.",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      "The maximum performance duration is 4 minutes.  No offensive language or sounds; maintain a positive atmosphere.  	Participants may use microphones provided but no other electronic devices.",
+    entry_fee:
+      " ₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    prize_money: "₹2000 for the winner.",
+    judging_criteria:
+      "Technical skill, originality, musicality, and stage presence.",
     regbtn: "https://forms.gle/MseBLcXkMDirPqUB9",
   },
   {
+    overview:
+      " A chance for budding filmmakers to tell a story through their lens, the Movie Making competition seeks to discover new perspectives and narratives. ",
+    eligibility: "Groups of up to 4 individuals.",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      " Films must be completed within a 45-minute window.  Language can be Hindi, English, or any regional language.  Content must be appropriate, avoiding themes that could offend regional or other sentiments. ",
+    entry_fee:
+      " ₹200 for Shobhitians,  ₹400 for participants from other institutes.",
+    judging_criteria:
+      "Storytelling, cinematography, editing, originality, and adherence to the theme.",
+    prize_money: " ₹3000 for the best film. ",
     regbtn: "https://forms.gle/MwN5k6rEWg4yEWcc8",
   },
   {
+    overview:
+      "A platform for creative expression through fashion, this contest invites participants to design a T-shirt that makes a statement. ",
+    eligibility: "Teams of 2 individuals. ",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      "	Designing must be completed within 45 minutes.  Language for any text on the T-shirt can be Hindi, English, or any regional language.  	Designs must be original and respectful, without any potential to offend.",
+    entry_fee:
+      " ₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    judging_criteria:
+      "Creativity, message clarity, aesthetic appeal, and originality.",
+    prize_money:
+      "₹2000 for the team with the most creative and impactful T-shirt design. ",
     regbtn: "https://forms.gle/envCDp9BJ3PLki9d7",
   },
 ];
 
 // Event rules and regulation div
-function makeadiv(image, rules, reg, title ,overview,eligibility,entry_fee,prize_money,judging_criteria) {
+function makeadiv(
+  image,
+  rules,
+  reg,
+  title,
+  overview,
+  eligibility,
+  entry_fee,
+  prize_money,
+  judging_criteria
+) {
   // outer div
   const outerDiv = document.createElement("div");
   outerDiv.setAttribute(
@@ -309,13 +434,25 @@ desc.forEach((elem) => {
     "click",
     (e) => {
       document.body.style.overflow = "hidden";
-      let { rules, regbtn,overview,eligibility,entry_fee,prize_money,judging_criteria } =
-        rulesAndReg[Number(e.target.parentElement.id) - 1];
+      let {
+        rules,
+        regbtn,
+        overview,
+        eligibility,
+        entry_fee,
+        prize_money,
+        judging_criteria,
+      } = rulesAndReg[Number(e.target.parentElement.id) - 1];
       makeadiv(
         e.target.currentSrc || e.target.nextElementSibling.currentSrc,
         rules,
         regbtn,
-        e.target.parentElement.innerText,overview,eligibility,entry_fee,prize_money,judging_criteria
+        e.target.parentElement.innerText,
+        overview,
+        eligibility,
+        entry_fee,
+        prize_money,
+        judging_criteria
       );
       // console.log(e.)
     },
