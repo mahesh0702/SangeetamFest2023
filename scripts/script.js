@@ -93,45 +93,79 @@ document.getElementById("hideBtn").addEventListener("click", function () {
 
 // all rules and regulation data along with their registration link
 let rulesAndReg = [
-
   {
-    rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    overview: "A showcase of vocal talent, where individuals or groups perform to win the title of Sangeetam's best singer.",
+eligibility: "Open to solo performers or groups of 3-4 from any college or university.",
+rules:
+  "The maximum duration of the performance is 4 minutes. Only live singing is permitted; no backing tracks.   Offensive language is strictly prohibited.        Participants must submit their song choices for pre-approval.",
+
+entry_fee: "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+prize_money: "₹2000 for the winner.",
+judging_criteria: "Vocal quality, stage presence, originality, and audience response.",
     regbtn: "https://forms.gle/dUXxzCrMAYd7DjRr7",
   },
   {
-    rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    overview:" Poets and Shayars recite their compositions, showcasing the beauty of verse and prose.",
+eligibility: "Solo poets.",
+rules:"Recitations must not exceed 4 minutes.Submissions must be the participant’s own writing, free from offensive language.Pieces must be submitted beforehand for approval.",
+entry_fee: "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+prize_money: "₹2000 for the most compelling recitation.",
+judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/AcWaauT6dsBgxT5S7",
   },
   {
-    rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    overview: "Bands compete to impress with their musical synergy and stage showmanship.",
+eligibility: "Groups of up to 6 musicians from any college or university.",
+rules:
+"Set must not exceed 15 minutes, including setup and takedown.No backing tracks all music must be played live.Offensive language in lyrics is strictly prohibited.",
+entry_fee:" ₹500 for Shobhitians, ₹1000 for participants from other institutes.",
+prize_money: "₹10000 for the winning band.",
+judging_criteria: "Musical arrangement, performance energy, audience response, and professionalism.",
     regbtn: "https://forms.gle/Vw9A88R4DbvSR2s36",
   },
   {
-    rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    overview: "An event for those who communicate through strokes of a brush or pencil, expressing their artistic visions.",
+eligibility: "Solo participants.",
+rules:"Maximum duration for creating the artwork is 45 minutes.Participants must bring their own art supplies. Canvas shall be provided by the University.Artwork must be original and created on-site.The Artwork will become the property of the University.",
+entry_fee: "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+prize_money: "₹5000 for the artwork that stands out in creativity and skill.",
+judging_criteria: "Creativity, technique, and overall aesthetic appeal.",
     regbtn: "https://forms.gle/Z1EpGbg7X4SNnsEX8",
   },
   {
-    rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    overview:" A glamorous event where pairs exhibit fashion and confidence on the runway.",
+eligibility: "Teams of two (one male and one female participant).",
+rules:"Costume Etiquette: Vulgar or offensive costumes are strictly prohibited. Cultural Sensibility: Participants should display cultural respect and avoid uncultured activities.",
+entry_fee: "₹200 for Shobhitians, ₹400 for participants from other institutes.",
+prize_money: "₹5000 for the pair that showcases the best walk, attire, and stage presence.",
+judging_criteria: "Confidence, attire, walk, and overall presentation.",
     regbtn: "https://forms.gle/PF5iwd1gEAJuTpFe6",
   },
   {
-    rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    overview: "An event for those who communicate through strokes of a brush or pencil, expressing their artistic visions.",
+    eligibility:" Solo participants.",
+rules:"Maximum duration for creating the artwork is 45 minutes.Participants must bring their own art supplies. Canvas shall be provided by the University.Artwork must be original and created on-site.The Artwork will become the property of the University.",
+entry_fee: '₹100 for Shobhitians, ₹200 for participants from other institutes.',
+prize_money: "₹5000 for the artwork that stands out in creativity and skill.",
+judging_criteria: "Creativity, technique, and overall aesthetic appeal.",
     regbtn: "https://forms.gle/zuxyWVWGHRzRsyER6",
   },
   {
-    rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    overview: "A contest for photographers to capture moments that reflect the theme provided.",
+    eligibility: "Solo participants.",
+    rules:"Participants must use their own cameras.Photographs must adhere to the theme provided in advance.Manipulation of photos is limited to basic adjustments; no digital art.",
+    entry_fee: "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    prize_money: "₹2000 for the photograph that best captures the theme with creativity and technical prowess.",
+    judging_criteria: "Composition, originality, relevance to the theme, and technical quality.",
     regbtn: "https://forms.gle/Aw9tcpwgHzzvVX9M8",
   },
   {
-    rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    overview: "Celebrating the rich cultural heritage of India, this event is for those who perform traditional and folk dances.",
+eligibility: "Duo performers or groups of up to 6 participants.",
+rules:"The maximum duration of the performance is 5 minutes. Language for music can be Hindi, English, or any regional language.Offensive language in music is strictly prohibited.",
+entry_fee: "₹200 for Shobhitians, ₹400 for participants from other institutes.",
+prize_money:"₹5000 for the best performance.",
+judging_criteria: "Authenticity, costumes, expression, and adherence to the traditional dance form.",
     regbtn: "https://forms.gle/UU7PzUWiMN479rWG6",
   },
   {
@@ -217,7 +251,7 @@ let rulesAndReg = [
 ];
 
 // Event rules and regulation div
-function makeadiv(image, rules, reg, title) {
+function makeadiv(image, rules, reg, title ,overview,eligibility,entry_fee,prize_money,judging_criteria) {
   // outer div
   const outerDiv = document.createElement("div");
   outerDiv.setAttribute(
@@ -229,16 +263,16 @@ function makeadiv(image, rules, reg, title) {
   const innerDiv = document.createElement("div");
   innerDiv.setAttribute(
     "class",
-    "py-5 w-11/12 h-10/12 flex flex-col justify-center items-center bg-[#0b0638] relative top-0 left-0 rounded-2xl"
+    "p-5 w-11/12 h-10/12 flex flex-col justify-center items-center bg-[#0b0638] relative top-0 left-0 rounded-2xl"
   );
 
   // event title
-  const span = document.createElement("span");
-  span.innerText = title;
-  span.setAttribute(
-    "class",
-    "w-60 absolute top-[15%] z-50 text-center bg-[rgba(0,0,0,0.56)] backdrop-blur-sm "
-  );
+  // const span = document.createElement("span");
+  // span.innerText = title;
+  // span.setAttribute(
+  //   "class",
+  //   "w-40 absolute top-[15%] z-50 text-center bg-[rgba(0,0,0,0.56)] backdrop-blur-sm "
+  // );
   // event image
   const img = document.createElement("img");
   img.setAttribute("class", "w-60 h-36 border-2 border-slate-400 rounded-2xl ");
@@ -246,11 +280,11 @@ function makeadiv(image, rules, reg, title) {
 
   // rules and regulation div
   const div2 = document.createElement("div");
-  div2.innerHTML = `<h1 class=" mt-2 text-center text-xl">Rules and Regulations</h1><p class="mx-3 my-2 text-justify ">${rules}</p>`;
+  div2.innerHTML = `<div class="flex flex-col items-start justify-center overflow-y-auto text-xs md:text-base"><p class="mx-1 my-1 text-justify basis-full"><strong>Overview</strong>: ${overview}</p><p class="mx-1 my-1 text-justify basis-full"><strong>Eligibility</strong>: ${eligibility}</p><p class="mx-1 my-1 text-justify basis-full"><strong>Rules</strong>: ${rules}</p> <p class="mx-1 my-1 text-justify basis-full"><strong>Entry Fees</strong>: ${entry_fee}</p><p class="mx-1 my-1 text-justify basis-full"><strong>Prize Money</strong>: ${prize_money}</p><p class="mx-1 my-1 text-justify basis-full"><strong>Judging Criteria</strong>: ${judging_criteria}</p>  `;
 
   // register Button
   const regbtn = document.createElement("button");
-  regbtn.innerHTML = `<a href=${reg} class="mx-auto mt-2 rounded-lg w-max p-2 bg-blue-700" target="blank">Register Now</a>`;
+  regbtn.innerHTML = `<a href=${reg} class="mx-auto mt-1 rounded-lg w-max p-1 bg-blue-700" target="blank">Register Now</a>`;
 
   // close Button
   const clsbtn = document.createElement("button");
@@ -264,7 +298,7 @@ function makeadiv(image, rules, reg, title) {
     document.body.style.overflow = "auto";
     outerDiv.remove();
   });
-  innerDiv.appendChild(span);
+  // innerDiv.appendChild(span);
   innerDiv.appendChild(img);
   innerDiv.appendChild(div2);
   innerDiv.appendChild(regbtn);
@@ -279,14 +313,14 @@ desc.forEach((elem) => {
   elem.addEventListener(
     "click",
     (e) => {
-      // document.body.style.overflow = "hidden";
-      let { rules, regbtn } =
+      document.body.style.overflow = "hidden";
+      let { rules, regbtn,overview,eligibility,entry_fee,prize_money,judging_criteria } =
         rulesAndReg[Number(e.target.parentElement.id) - 1];
       makeadiv(
         e.target.currentSrc || e.target.nextElementSibling.currentSrc,
         rules,
         regbtn,
-        e.target.parentElement.innerText
+        e.target.parentElement.innerText,overview,eligibility,entry_fee,prize_money,judging_criteria
       );
       // console.log(e.)
     },
