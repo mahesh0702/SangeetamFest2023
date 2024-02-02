@@ -888,7 +888,10 @@
             just want to talk to us
           </p>
         </h1>
-        <form class="flex justify-center flex-col mx-6 text-black">
+        <form
+          class="flex justify-center flex-col mx-6 text-black"
+          onsubmit="sendEmail(); reset(); return false;"
+        >
           <input
             type="text"
             name=""
@@ -907,6 +910,7 @@
           ></textarea>
           <button
             class="my-6 mx-auto border-2 border-transparent rounded-lg w-max px-4 bg-blue-400"
+            type="submit"
           >
             Ask us
           </button>
