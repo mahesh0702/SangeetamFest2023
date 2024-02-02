@@ -93,6 +93,62 @@ document.getElementById("hideBtn").addEventListener("click", function () {
 
 // all rules and regulation data along with their registration link
 let rulesAndReg = [
+
+  {
+    rules:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    regbtn: "https://forms.gle/dUXxzCrMAYd7DjRr7",
+  },
+  {
+    rules:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    regbtn: "https://forms.gle/AcWaauT6dsBgxT5S7",
+  },
+  {
+    rules:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    regbtn: "https://forms.gle/Vw9A88R4DbvSR2s36",
+  },
+  {
+    rules:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    regbtn: "https://forms.gle/Z1EpGbg7X4SNnsEX8",
+  },
+  {
+    rules:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    regbtn: "https://forms.gle/PF5iwd1gEAJuTpFe6",
+  },
+  {
+    rules:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    regbtn: "https://forms.gle/zuxyWVWGHRzRsyER6",
+  },
+  {
+    rules:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    regbtn: "https://forms.gle/Aw9tcpwgHzzvVX9M8",
+  },
+  {
+    rules:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    regbtn: "https://forms.gle/UU7PzUWiMN479rWG6",
+  },
+  {
+    rules:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    regbtn: "++++link+++++",
+  },
+  {
+    rules:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    regbtn: "++++link+++++",
+  },
+  {
+    rules:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    regbtn: "++++link+++++",
+  },
   {
     rules:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
@@ -153,6 +209,11 @@ let rulesAndReg = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
     regbtn: "++++link+++++",
   },
+  {
+    rules:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    regbtn: "++++link+++++",
+  }
 ];
 
 // Event rules and regulation div
@@ -218,7 +279,7 @@ desc.forEach((elem) => {
   elem.addEventListener(
     "click",
     (e) => {
-      document.body.style.overflow = "hidden";
+      // document.body.style.overflow = "hidden";
       let { rules, regbtn } =
         rulesAndReg[Number(e.target.parentElement.id) - 1];
       makeadiv(
@@ -227,7 +288,7 @@ desc.forEach((elem) => {
         regbtn,
         e.target.parentElement.innerText
       );
-      // console.log(e)
+      // console.log(e.)
     },
     false
   );
