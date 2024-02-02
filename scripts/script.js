@@ -213,7 +213,13 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/KxRKSkdxBJmaZSQW7",
   },
   {
-    // overview: ""
+    overview: "Poets and Shayars recite their compositions, showcasing the beauty of verse and prose.",
+eligibility: "Solo poets.",
+rules:
+"Recitations must not exceed 4 minutes. Submissions must be the participant’s own writing, free from offensive language. Pieces must be submitted beforehand for approval.",
+entry_fee: "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+prize_money: "₹2000 for the most compelling recitation.",
+judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/D6Hr2tZijyCfULs6A",
   },
   {
@@ -224,7 +230,7 @@ let rulesAndReg = [
       "The hunt duration is a maximum of 30 minutes. Cohesiveness and team building are promoted. Teams must solve clues to find the treasure, adhering to fair play.",
     entry_fee:
       "₹200 for Shobhitians, ₹300 for participants from other institutes.",
-    price_money: "₹3000 for the first team to successfully complete the hunt.",
+    prize_money: "₹3000 for the first team to successfully complete the hunt.",
     judging_criteria: "Time taken, teamwork, and ability to solve clues.",
     regbtn: "https://forms.gle/59tAoTiL4V2fDMiq6",
   },
@@ -296,7 +302,7 @@ let rulesAndReg = [
   {
     overview:
       " A display of artistic talent on a live canvas, participants bring designs to life on the face.",
-    ligibility: " Solo participants.",
+    eligibility: " Solo participants.",
     rules:
       " Films must be completed within a 45-minute window.  Language can be Hindi, English, or any regional language.  Content must be appropriate, avoiding themes that could offend regional or other sentiments.",
     entry_fee:
@@ -306,25 +312,19 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/mtEzLMuPUvJyEbHYA",
   },
   {
-    overview:
-      "A powerful medium for storytelling, the Nukkad-Natak event is a platform for groups to perform plays in public spaces, addressing social issues.",
-    eligibility:
-      "The competition is open to all.  Each team must consist of a minimum of 8 and a maximum of 15 members.",
-    presentation:
-      " The duration of each Nukkad-Natak should be minimum of 8 minutes not exceed more than 15 minutes.	The use of vulgarity, obscenity, or any material that may hurt the sentiments of any individual or group is strictly prohibited. The Nukkad-Natak should be original and should not be a copy of any existing work.  The use of props and costumes is allowed, but they should be minimal and easy to carry.",
-    rules:
-      " Abusive language will lead to disqualification. The use of any sound system or amplification is not allowed. The decision of the judges will be final and binding on all participants. ",
-    entry_fee: " ₹1000-/ ",
-    judging_criteria:
-      "Content and relevance to the theme.	Creativity and originality.	Script portray.	Acting performance.	Stage presence and communication. Teamwork. Expression of thought and impact on public. ",
-    winning_prize: "The prize for the winning team will be Rs. 5100-/",
+    overview:"A powerful medium for storytelling,platform for groups to perform plays in public spaces, addressing social issues.",
+    eligibility:"Each team must consist of a minimum of 8 and a maximum of 15 members.",
+    rules:"The duration should be minimum of 8 minutes and not more than 15 minutes.	The use of abusive language,vulgarity, obscenity, or any material that may hurt the sentiments of any individual or group is strictly prohibited.It should be original and should not be a copy of any existing work.The use of props and costumes is allowed, but they should be minimal and easy to carry.The use of any sound system is not allowed.",
+    entry_fee:"₹1000/- ",
+    judging_criteria:"Content and relevance to the theme.	Creativity and originality.Script portray.Acting performance.Stage presence and communication. Teamwork. Expression of thought and impact on public. ",
+    prize_money:"The prize for the winning team will be Rs. 5100-/",
     regbtn: "https://forms.gle/11U9q91TsZHa2gcf8",
   },
   {
-    Overview:
+    overview:
       "A test of imitation skills where solo performers mimic famous personalities or voices.",
-    Eligibility: " Solo performers.",
-    Rules:
+    eligibility: " Solo performers.",
+    rules:
       "	Acts must not exceed 4 minutes.	Performances must not include offensive language or gestures.	Participants should ensure that the content is in good taste and not derogatory.",
     entry_fee:
       "₹100 for Shobhitians, ₹200 for participants from other institutes.",
@@ -335,8 +335,9 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/51V3hQnLwiRdUG8P6",
   },
   {
+
     eligibility: "Group of up to 5 -7 participants.",
-    event_format:
+    overview:
       " Each team will be given 6-8 minutes to perform a qawwali piece.",
     judging_criteria:
       " (Might be subject to change) Musicality  Cohesion	Authenticity	Audience engagement	Vocal quality and harmony. Rythm and tempo.Presentation and stage presence.	Adherence to qawwali piece.",
@@ -488,16 +489,3 @@ desc.forEach((elem) => {
     false
   );
 });
-
-// form submission
-function sendEmail() {
-  Email.send({
-    Host: "smtp.gmail.com",
-    Username: "username",
-    password: "password",
-    To: "sangeetam@shobhituniversity.ac.in",
-    From: "you@isp.com",
-    Subject: "Fest Enquiry",
-    Body: "And thi is body",
-  }).then((message) => alert(message));
-}
