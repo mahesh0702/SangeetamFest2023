@@ -166,47 +166,47 @@ let rulesAndReg = [
   {
     rules:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
-    regbtn: "https://forms.gle/U8XMYjPsUvB6mZzw8",
+    regbtn: "https://forms.gle/j8xLYqZLqQiA2SsT8",
   },
   {
     rules:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
-    regbtn: "++++link+++++",
+    regbtn: "https://forms.gle/dJcZTgQGM5cnd5bJ8",
   },
   {
     rules:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
-    regbtn: "++++link+++++",
+    regbtn: "https://forms.gle/mtEzLMuPUvJyEbHYA",
   },
   {
     rules:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
-    regbtn: "++++link+++++",
+    regbtn: "https://forms.gle/11U9q91TsZHa2gcf8",
   },
   {
     rules:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
-    regbtn: "#",
+    regbtn: "https://forms.gle/51V3hQnLwiRdUG8P6",
   },
   {
     rules:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
-    regbtn: "#",
+    regbtn: "https://forms.gle/7LKKKut6fknaC7mY6",
   },
   {
     rules:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
-    regbtn: "#",
+    regbtn: "https://forms.gle/MseBLcXkMDirPqUB9",
   },
   {
     rules:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
-    regbtn: "#",
+    regbtn: "https://forms.gle/MwN5k6rEWg4yEWcc8",
   },
   {
     rules:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
-    regbtn: "++++link+++++",
+    regbtn: "https://forms.gle/envCDp9BJ3PLki9d7",
   },
 ];
 
