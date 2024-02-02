@@ -200,41 +200,70 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/UU7PzUWiMN479rWG6",
   },
   {
+    overview:
+      "Comedians take the stage to deliver laughs, with routines that highlight their wit and humor.",
+    eligibility: "Solo stand-up comedians.",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      "Each performance is limited to 4 minutes. Content must be original and devoid of offensive language. Respect for all audience members and public figures is required.",
+    entry_fee:
+      "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    prize_money: "₹2000 for the best comedian.",
+    judging_criteria:
+      "Humor, originality, delivery, and ability to engage the audience.",
     regbtn: "https://forms.gle/KxRKSkdxBJmaZSQW7",
   },
   {
-    rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+    // overview: ""
     regbtn: "https://forms.gle/D6Hr2tZijyCfULs6A",
   },
   {
+    overview:
+      "An adventurous and exciting game that tests problem-solving and teamwork, the Treasure Hunt leads teams on a quest to find hidden treasures around the campus.",
+    eligibility: "Teams of up to 5 individuals.",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      "The hunt duration is a maximum of 30 minutes. Cohesiveness and team building are promoted. Teams must solve clues to find the treasure, adhering to fair play.",
+    entry_fee:
+      "₹200 for Shobhitians, ₹300 for participants from other institutes.",
+    price_money: "₹3000 for the first team to successfully complete the hunt.",
+    judging_criteria: "Time taken, teamwork, and ability to solve clues.",
     regbtn: "https://forms.gle/59tAoTiL4V2fDMiq6",
   },
   {
+    overview:
+      "Contestants display their beatboxing prowess, using vocal percussion to create beats and rhythms.",
+    eligibility: "Open to solo beatboxers or duos.",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      "The maximum performance duration is 4 minutes. No offensive language or sounds; maintain a positive atmosphere. Participants may use microphones provided but no other electronic devices.",
+    entry_fee:
+      "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    prize_money: "₹2000 for the winner.",
+    judging_criteria:
+      "Technical skill, originality, musicality, and stage presence.",
     regbtn: "https://forms.gle/ye3mikAsM7CRfDxZ6",
   },
   {
+    overview:
+      "A showcase for dancers to express themselves freely, blending various dance styles. ",
+    eligibility: "Groups of up to 6 participants. ",
     rules:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto natus labore eum explicabo tempora nostrum cumque itaque eos aperiam! Et debitis aliquid explicabo similique, quae fugit illum exercitationem quas vel dolor, labore quaerat voluptatem, atque nulla veritatis sint nostrum expedita? Accusamus soluta laudantium esse dolores facilis vero pariatur quibusdam.",
+      "Group performances have a maximum duration of 4 minutes. Language for any accompanying music can be Hindi, English, or any regional language. Offensive language in music is strictly prohibited.",
+    entry_fee:
+      "₹200 for groups (Shobhitians); ₹400 for groups from other institutes. ",
+    prize_money: "₹5000 for winning group.",
+    judging_criteria:
+      " Originality, technique, synchronization, and overall performance. ",
     regbtn: "https://forms.gle/AtSbbsLbVS62RTWx9",
   },
   {
     overview:
       "A showcase for dancers to express themselves freely, blending various dance styles. ",
-    eligibility: "Solo dancers or groups of up to 6 participants. ",
+    eligibility: "Solo dancers",
     rules:
-      "	Solo performances have a maximum duration of 4 minutes; groups have the same time limit.  	Language for any accompanying music can be Hindi, English, or any regional language.  Offensive language in music is strictly prohibited.",
+      "	Solo performances have a maximum duration of 4 minutes. Language for any accompanying music can be Hindi, English, or any regional language. Offensive language in music is strictly prohibited.",
     entry_fee:
-      "₹100 for solo (Shobhitians), ₹200 for groups; ₹200 for solo and ₹400 for groups from other institutes. ",
-    prize_money: "₹3000 for solo winner, ₹5000 for winning group.",
-    judging_criteria:
-      " Originality, technique, synchronization (for groups), and overall performance. ",
+      "₹100 for solo (Shobhitians); ₹200 for solo from other institutes. ",
+    prize_money: "₹3000 for solo winner.",
+    judging_criteria: " Originality, technique, and overall performance. ",
     regbtn: "https://forms.gle/FycarAcFhfpFcxVL9",
   },
   {
@@ -459,3 +488,16 @@ desc.forEach((elem) => {
     false
   );
 });
+
+// form submission
+function sendEmail() {
+  Email.send({
+    Host: "smtp.gmail.com",
+    Username: "username",
+    password: "password",
+    To: "sangeetam@shobhituniversity.ac.in",
+    From: "you@isp.com",
+    Subject: "Fest Enquiry",
+    Body: "And thi is body",
+  }).then((message) => alert(message));
+}
