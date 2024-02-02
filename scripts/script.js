@@ -76,7 +76,7 @@ let x = setInterval(function () {
 // hide button in event section
 document.getElementById("hideBtn").addEventListener("click", function () {
   let boxes = document.querySelectorAll(".box");
-  let numToHide = 9; // Change this number to hide a different amount of boxes
+  let numToHide = 19; // Change this number to hide a different amount of boxes
 
   for (let i = 0; i < numToHide; i++) {
     if (boxes[i]) {

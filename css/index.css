@@ -106,4 +106,9 @@ animation-timing-function:linear;
   }
 }
 
+.box:last-child{
+  justify-self: center;
+  align-self: center;
+}
+
   
