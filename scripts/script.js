@@ -1,6 +1,5 @@
 //  scroll button : Bottom to TOP as well as translucent navbar on scroll
 
-// document.getElementById("navbar").style.backgroundColor = "#0d0745";
 let toTopButton = document.getElementById("to-top-button");
 // When the user scrolls down 200px from the top of the document, show the button
 window.onscroll = function () {
@@ -8,14 +7,8 @@ window.onscroll = function () {
     document.body.scrollTop > 140 ||
     document.documentElement.scrollTop > 140
   ) {
-    // document.getElementById("navbar").style.background = "transparent";
-    // document.getElementById("navbar").style.backdropFilter = "blur(30px)";
-    // document.getElementById("navbar").classList.add("blurred");
-    // document.getElementById("navbar-ul").classList.add("blurred");
     toTopButton.classList.remove("hidden");
   } else {
-    // document.getElementById("navbar").classList.remove("blurred");
-    // document.getElementById("navbar-ul").classList.remove("blurred");
     toTopButton.classList.add("hidden");
   }
 };
@@ -314,12 +307,12 @@ judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/mtEzLMuPUvJyEbHYA",
   },
   {
-    overview:"A powerful medium for storytelling,platform for groups to perform plays in public spaces, addressing social issues.",
-    eligibility:"Each team must consist of a minimum of 8 and a maximum of 15 members.",
-    rules:"The duration should be minimum of 8 minutes and not more than 15 minutes.	The use of abusive language,vulgarity, obscenity, or any material that may hurt the sentiments of any individual or group is strictly prohibited.It should be original and should not be a copy of any existing work.The use of props and costumes is allowed, but they should be minimal and easy to carry.The use of any sound system is not allowed.",
+    overview:"A platform for groups to perform plays in public spaces, medium for storytelling, addressing social issues.",
+    eligibility:"Each team must consist of 8-15 members.",
+    rules:"The duration should be minimum of 8-15 minutes.The use of abusive language,vulgarity, obscenity, or any material that may hurt sentiments of any individual or group is strictly prohibited.Natak should be original and not copied.The use of props & costumes is allowed, but they should be minimal & easily carried.The use of any sound system is not allowed.",
     entry_fee:"₹1000/- ",
-    judging_criteria:"Content and relevance to the theme.	Creativity and originality.Script portray.Acting performance.Stage presence and communication. Teamwork. Expression of thought and impact on public. ",
-    prize_money:"The prize for the winning team will be Rs. 5100-/",
+    judging_criteria:"Content and relevance to theme.	Creativity and originality,Script portray,Acting performance,Stage presence and communication,Teamwork, Expression of thought and impact on public.",
+    prize_money:"Winning team will receive ₹5100/-",
     regbtn: "https://forms.gle/11U9q91TsZHa2gcf8",
   },
   {

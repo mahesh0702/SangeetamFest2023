@@ -49,9 +49,18 @@ body {
 #sponsors {
   background-color: var(--bg-color2);
 }
-/* #navbar{
-  background-color: transparent;
-} */
+#navbar{
+  /* background-color: transparent; */
+  background: hsla(246, 22%, 35%, 1);
+
+background: linear-gradient(360deg, hsla(246, 22%, 35%, 1) 17%, hsla(246, 81%, 12%, 1) 93%);
+
+background: -moz-linear-gradient(360deg, hsla(246, 22%, 35%, 1) 17%, hsla(246, 81%, 12%, 1) 93%);
+
+background: -webkit-linear-gradient(360deg, hsla(246, 22%, 35%, 1) 17%, hsla(246, 81%, 12%, 1) 93%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#49456C", endColorstr="#0B0638", GradientType=1 );
+}
 .blurred {
   /* filter: blur(20px); */
   backdrop-filter: blur(20px);
