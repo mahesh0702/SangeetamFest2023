@@ -89,6 +89,7 @@ document.getElementById("hideBtn").addEventListener("click", function () {
 // all rules and regulation data along with their registration link
 let rulesAndReg = [
   {
+    // vocal vista
     overview:
       "A showcase of vocal talent, where individuals or groups perform to win the title of Sangeetam's best singer.",
     eligibility:
@@ -104,6 +105,7 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/dUXxzCrMAYd7DjRr7",
   },
   {
+    //shabd saaj
     overview:
       " Poets and Shayars recite their compositions, showcasing the beauty of verse and prose.",
     eligibility: "Solo poets.",
@@ -116,6 +118,7 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/AcWaauT6dsBgxT5S7",
   },
   {
+    //battle of bands
     overview:
       "Bands compete to impress with their musical synergy and stage showmanship.",
     eligibility: "Groups of up to 6 musicians from any college or university.",
@@ -129,6 +132,7 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/Vw9A88R4DbvSR2s36",
   },
   {
+    //doodle sketching
     overview:
       "An event for those who communicate through strokes of a brush or pencil, expressing their artistic visions.",
     eligibility: "Solo participants.",
@@ -142,6 +146,7 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/Z1EpGbg7X4SNnsEX8",
   },
   {
+    //style symphony
     overview:
       " A glamorous event where pairs exhibit fashion and confidence on the runway.",
     eligibility: "Teams of two (one male and one female participant).",
@@ -155,6 +160,7 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/PF5iwd1gEAJuTpFe6",
   },
   {
+    //canvas painting competition
     overview:
       "An event for those who communicate through strokes of a brush or pencil, expressing their artistic visions.",
     eligibility: " Solo participants.",
@@ -168,6 +174,7 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/zuxyWVWGHRzRsyER6",
   },
   {
+    //snapshot showdown
     overview:
       "A contest for photographers to capture moments that reflect the theme provided.",
     eligibility: "Solo participants.",
@@ -182,6 +189,7 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/Aw9tcpwgHzzvVX9M8",
   },
   {
+    //feat of fury (solo/duet)
     overview:
       "Celebrating the rich cultural heritage of India, this event is for those who perform traditional and folk dances.",
     eligibility: "Duo performers or groups of up to 6 participants.",
@@ -195,6 +203,7 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/UU7PzUWiMN479rWG6",
   },
   {
+    //comic carouse
     overview:
       "Comedians take the stage to deliver laughs, with routines that highlight their wit and humor.",
     eligibility: "Solo stand-up comedians.",
@@ -208,16 +217,20 @@ let rulesAndReg = [
     regbtn: "https://forms.gle/KxRKSkdxBJmaZSQW7",
   },
   {
-    overview: "Poets and Shayars recite their compositions, showcasing the beauty of verse and prose.",
-eligibility: "Solo poets.",
-rules:
-"Recitations must not exceed 4 minutes. Submissions must be the participant’s own writing, free from offensive language. Pieces must be submitted beforehand for approval.",
-entry_fee: "₹100 for Shobhitians, ₹200 for participants from other institutes.",
-prize_money: "₹2000 for the most compelling recitation.",
-judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
+    // shayarana shaam
+    overview:
+      "Poets and Shayars recite their compositions, showcasing the beauty of verse and prose.",
+    eligibility: "Solo poets.",
+    rules:
+      "Recitations must not exceed 4 minutes. Submissions must be the participant’s own writing, free from offensive language. Pieces must be submitted beforehand for approval.",
+    entry_fee:
+      "₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    prize_money: "₹2000 for the most compelling recitation.",
+    judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/D6Hr2tZijyCfULs6A",
   },
   {
+    //treasure hunt
     overview:
       "An adventurous and exciting game that tests problem-solving and teamwork, the Treasure Hunt leads teams on a quest to find hidden treasures around the campus.",
     eligibility: "Teams of up to 5 individuals.",
@@ -230,6 +243,7 @@ judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/59tAoTiL4V2fDMiq6",
   },
   {
+    // beat boxing
     overview:
       "Contestants display their beatboxing prowess, using vocal percussion to create beats and rhythms.",
     eligibility: "Open to solo beatboxers or duos.",
@@ -243,6 +257,7 @@ judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/ye3mikAsM7CRfDxZ6",
   },
   {
+    // freestyle dance (group)
     overview:
       "A showcase for dancers to express themselves freely, blending various dance styles. ",
     eligibility: "Groups of up to 6 participants. ",
@@ -256,6 +271,7 @@ judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/AtSbbsLbVS62RTWx9",
   },
   {
+    // freestyle dance (solo)
     overview:
       "A showcase for dancers to express themselves freely, blending various dance styles. ",
     eligibility: "Solo dancers",
@@ -268,6 +284,7 @@ judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/FycarAcFhfpFcxVL9",
   },
   {
+    //nritya navrang
     overview:
       "Celebrating the rich cultural heritage of India, this event is for those who perform traditional and folk dances.",
     eligibility: " Solo performers or groups of up to 6 participants.",
@@ -281,6 +298,7 @@ judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/j8xLYqZLqQiA2SsT8",
   },
   {
+    // murals of melody (wall painting)
     overview:
       " An event for artists to create large-scale paintings live, this contest encourages creativity on a grand scale.",
     eligibility: " Groups of up to 4 participants.",
@@ -295,6 +313,7 @@ judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/dJcZTgQGM5cnd5bJ8",
   },
   {
+    //face painting(canvas of colours)
     overview:
       " A display of artistic talent on a live canvas, participants bring designs to life on the face.",
     eligibility: " Solo participants.",
@@ -307,15 +326,20 @@ judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/mtEzLMuPUvJyEbHYA",
   },
   {
-    overview:"A platform for groups to perform plays in public spaces, medium for storytelling, addressing social issues.",
-    eligibility:"Each team must consist of 8-15 members.",
-    rules:"The duration should be minimum of 8-15 minutes.The use of abusive language,vulgarity, obscenity, or any material that may hurt sentiments of any individual or group is strictly prohibited.Natak should be original and not copied.The use of props & costumes is allowed, but they should be minimal & easily carried.The use of any sound system is not allowed.",
-    entry_fee:"₹1000/- ",
-    judging_criteria:"Content and relevance to theme.	Creativity and originality,Script portray,Acting performance,Stage presence and communication,Teamwork, Expression of thought and impact on public.",
-    prize_money:"Winning team will receive ₹5100/-",
+    //nukkad natak
+    overview:
+      "A platform for groups to perform plays in public spaces, medium for storytelling, addressing social issues.",
+    eligibility: "Each team must consist of 8-15 members.",
+    rules:
+      "The duration should be minimum of 8-15 minutes.The use of abusive language,vulgarity, obscenity, or any material that may hurt sentiments of any individual or group is strictly prohibited.Natak should be original and not copied.The use of props & costumes is allowed, but they should be minimal & easily carried.The use of any sound system is not allowed.",
+    entry_fee: "₹1000/- ",
+    judging_criteria:
+      "Content and relevance to theme.	Creativity and originality,Script portray,Acting performance,Stage presence and communication,Teamwork, Expression of thought and impact on public.",
+    prize_money: "Winning team will receive ₹5100/-",
     regbtn: "https://forms.gle/11U9q91TsZHa2gcf8",
   },
   {
+    //mimicry competition
     overview:
       "A test of imitation skills where solo performers mimic famous personalities or voices.",
     eligibility: " Solo performers.",
@@ -330,7 +354,7 @@ judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/51V3hQnLwiRdUG8P6",
   },
   {
-
+    // Qawwali
     eligibility: "Group of up to 5 -7 participants.",
     overview:
       " Each team will be given 6-8 minutes to perform a qawwali piece.",
@@ -344,6 +368,7 @@ judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/7LKKKut6fknaC7mY6",
   },
   {
+    // rhythm rebellion(beat boxing)
     overview:
       " Contestants display their beatboxing prowess, using vocal percussion to create beats and rhythms.",
     eligibility: "Open to solo beatboxers or duos.",
@@ -357,30 +382,30 @@ judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
     regbtn: "https://forms.gle/MseBLcXkMDirPqUB9",
   },
   {
+    // movie making
     overview:
       " A chance for budding filmmakers to tell a story through their lens, the Movie Making competition seeks to discover new perspectives and narratives. ",
     eligibility: "Groups of up to 4 individuals.",
     rules:
-      " Films must be completed within a 45-minute window.  Language can be Hindi, English, or any regional language.  Content must be appropriate, avoiding themes that could offend regional or other sentiments. ",
-    entry_fee:
-      " ₹200 for Shobhitians,  ₹400 for participants from other institutes.",
+      " Films must be completed within a 5-8 minute window.  Language can be Hindi, English, or any regional language.  Content must be appropriate avoiding themes that could offend regional or other sentiments. Theme: Overcoming Challenges",
+    entry_fee: "₹500 per team.",
     judging_criteria:
-      "Storytelling, cinematography, editing, originality, and adherence to the theme.",
-    prize_money: " ₹3000 for the best film. ",
+      "Storytelling, cinematography, editing, originality, and topic relevance.",
+    prize_money: " Attractive Gift hampers ",
     regbtn: "https://forms.gle/MwN5k6rEWg4yEWcc8",
   },
   {
+    //t-shirt designing
     overview:
       "A platform for creative expression through fashion, this contest invites participants to design a T-shirt that makes a statement. ",
-    eligibility: "Teams of 2 individuals. ",
+    eligibility: "Teams of 1 or 2 individuals. ",
     rules:
-      "	Designing must be completed within 45 minutes.  Language for any text on the T-shirt can be Hindi, English, or any regional language.  	Designs must be original and respectful, without any potential to offend.",
-    entry_fee:
-      " ₹100 for Shobhitians, ₹200 for participants from other institutes.",
+      "Designing must be completed within 1 hour. Language for any text on the T-shirt can be Hindi, English, or any regional language. Designs must be original and respectful, without any potential to offend. Theme: Connecting India",
+    entry_fee: "₹500",
     judging_criteria:
       "Creativity, message clarity, aesthetic appeal, and originality.",
     prize_money:
-      "₹2000 for the team with the most creative and impactful T-shirt design. ",
+      "Exciting Hampers for the team with the most creative and impactful T-shirt design.",
     regbtn: "https://forms.gle/envCDp9BJ3PLki9d7",
   },
 ];
@@ -390,7 +415,6 @@ function makeadiv(
   image,
   rules,
   reg,
-  title,
   overview,
   eligibility,
   entry_fee,
