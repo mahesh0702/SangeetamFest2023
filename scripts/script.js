@@ -496,7 +496,7 @@ desc.forEach((elem) => {
         e.target.currentSrc || e.target.nextElementSibling.currentSrc,
         rules,
         regbtn,
-        e.target.parentElement.innerText,
+        // e.target.parentElement.innerText,
         overview,
         eligibility,
         entry_fee,
