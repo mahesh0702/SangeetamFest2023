@@ -1,5 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +27,7 @@ body {
   position: relative;
 }
 #festName {
+  /* background: rgb(0,0,0); */
   position: absolute;
   top: 0;
   left: 0;
@@ -62,21 +67,19 @@ background: -webkit-linear-gradient(360deg, hsla(246, 22%, 35%, 1) 17%, hsla(246
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#49456C", endColorstr="#0B0638", GradientType=1 );
 }
 .blurred {
-  /* filter: blur(20px); */
   backdrop-filter: blur(20px);
 }
 
 .hidden {
   display: none;
 }
-/* :-webkit-full-screen{
-} */
+
 .about {
   position: relative;
   overflow: hidden;
 }
 .about:before {
-  z-index: index -1;
+  z-index: 1;
   content: "";
   width: 100%;
   /* border: 2px solid red; */
