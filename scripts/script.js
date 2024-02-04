@@ -344,27 +344,40 @@ let rulesAndReg = [
   {
     // shayarana shaam
     overview:
-      "Poets and Shayars recite their compositions, showcasing the beauty of verse and prose.",
-    eligibility: "Solo poets.",
-    rules:
-      "Recitations must not exceed 4 minutes. Submissions must be the participant’s own writing, free from offensive language. Pieces must be submitted beforehand for approval.",
-    entry_fee:
-      "₹100 for Shobhitians, ₹200 for participants from other institutes.",
-    prize_money: "₹2000 for the most compelling recitation.",
-    judging_criteria: "Emotional depth, delivery, lyrical beauty, and impact.",
+      "Indulge in the beauty of language, rhythm, and emotion as we invite you to Shayarana shaam a captivating evening dedicated to the art of poetry and Shayari. This event celebrates the power of words to express, heal, and inspire, bringing together poets, wordsmiths, and appreciators of the written and spoken word.",
+    eligibility: "Open to all.",
+    rules: [
+      "Poetry/Shayari must be original and in Hindi, English, Hinglish, or Urdu.",
+      "Poetry/Shayari must be minimum of 6 lines.",
+      "Poetry/Shayari must be submitted in a typed format.",
+      "All submissions must be made by the due date.",
+      "Late submissions will not be accepted.",
+      "The decision of the judges will be final.",
+      "Organizers/ Judges reserve the right to change any of the rules at any time",
+    ],
+    add_info: [
+      "Participants are encouraged to use musical terms and concepts in their Shayari.",
+      "Participants can submit their Poetry/Shayari offline or online.",
+      "Participants must be available to perform their Poetry/Shayari on stage at the designated time.",
+    ],
+    entry_fee: ["₹200"],
+    prize_money: ["Attractive Gift Hamper with novels and certificates"],
+    judging_criteria: [
+      "Creativity of words",
+      "Meaning of the piece performed",
+      "Literature delivery",
+    ],
     regbtn: "https://forms.gle/D6Hr2tZijyCfULs6A",
   },
   {
     //treasure hunt
     overview:
       "An adventurous and exciting game that tests problem-solving and teamwork, the Treasure Hunt leads teams on a quest to find hidden treasures around the campus.",
-    eligibility: "Teams of up to 5 individuals.",
-    rules:
-      "The hunt duration is a maximum of 30 minutes. Cohesiveness and team building are promoted. Teams must solve clues to find the treasure, adhering to fair play.",
-    entry_fee:
-      "₹200 for Shobhitians, ₹300 for participants from other institutes.",
-    prize_money: "₹3000 for the first team to successfully complete the hunt.",
-    judging_criteria: "Time taken, teamwork, and ability to solve clues.",
+    eligibility: "Open to all",
+    rules: [""],
+    entry_fee: [""],
+    prize_money: [""],
+    judging_criteria: [""],
     regbtn: "https://forms.gle/59tAoTiL4V2fDMiq6",
   },
   {
@@ -449,13 +462,16 @@ let rulesAndReg = [
     overview:
       "Celebrating the rich cultural heritage of India, this event is for those who perform traditional and folk dances.",
     eligibility: " Solo performers or groups of up to 6 participants.",
-    rules:
+    rules: [
       "The maximum duration of the performance is 5 minutes.  Language for music can be Hindi, English, or any regional language.  Offensive language in music is strictly prohibited.",
-    entry_fee:
+    ],
+    entry_fee: [
       " ₹200 for Shobhitians, ₹400 for participants from other institutes.",
-    prize_money: " ₹5000 for the best performance. ",
-    judging_criteria:
+    ],
+    prize_money: [" ₹5000 for the best performance. "],
+    judging_criteria: [
       "Authenticity, costumes, expression, and adherence to the traditional dance form. ",
+    ],
     regbtn: "https://forms.gle/j8xLYqZLqQiA2SsT8",
   },
   {
@@ -463,14 +479,17 @@ let rulesAndReg = [
     overview:
       " An event for artists to create large-scale paintings live, this contest encourages creativity on a grand scale.",
     eligibility: " Groups of up to 4 participants.",
-    rules:
+    rules: [
       " Maximum painting time is 45 minutes.  Themes must be positive and must not potentially hurt regional or other sentiments 	Language for any text in the painting can be Hindi, English, or any regional language.",
-    entry_fee:
+    ],
+    entry_fee: [
       " ₹100 for Shobhitians, ₹200 for participants from other institutes.",
+    ],
 
-    prize_money:
+    prize_money: [
       " ₹3000 for the group with the most impactful and creative wall painting.",
-    judging_criteria: " Creativity, message, technique, and visual impact.",
+    ],
+    judging_criteria: [" Creativity, message, technique, and visual impact."],
     regbtn: "https://forms.gle/dJcZTgQGM5cnd5bJ8",
   },
   {
@@ -582,15 +601,17 @@ let rulesAndReg = [
   {
     // rhythm rebellion(beat boxing)
     overview:
-      " Contestants display their beatboxing prowess, using vocal percussion to create beats and rhythms.",
-    eligibility: "Open to solo beatboxers or duos.",
-    rules:
-      "The maximum performance duration is 4 minutes.  No offensive language or sounds; maintain a positive atmosphere.  	Participants may use microphones provided but no other electronic devices.",
-    entry_fee:
-      " ₹100 for Shobhitians, ₹200 for participants from other institutes.",
-    prize_money: "₹2000 for the winner.",
-    judging_criteria:
-      "Technical skill, originality, musicality, and stage presence.",
+      "Contestants display their beat boxing prowess, using vocal percussion to create beats and rhythms.",
+    eligibility: "Open to all.",
+    rules: [
+      "The minimum performance duration is 1 minute.",
+      "No offensive language or sounds; maintain a positive atmosphere.",
+      "Participants may use microphones provided but no other electronic devices.",
+    ],
+
+    entry_fee: [" ₹200 for each participant. "],
+    prize_money: ["Attractive gift hampers, certificates and more."],
+    judging_criteria: ["musicality", "Originality", " stage presence."],
     regbtn: "https://forms.gle/MseBLcXkMDirPqUB9",
   },
   {
@@ -646,6 +667,28 @@ let rulesAndReg = [
       "Theme: Education Empowers, Harmonizing Cultures & Amplifying Talents, and if not open theme.",
     ],
     regbtn: "https://forms.gle/envCDp9BJ3PLki9d7",
+  },
+  {
+    // psychological game
+    overview:
+      "A mock crime scene investigation to explore the complexity of psychology behind criminal Minds which is taken from the branch of criminal psychology",
+    eligibility: "Open to all",
+    rules: [""],
+    entry_fee: [""],
+    prize_money: [""],
+    judging_criteria: [""],
+    regbtn: "#",
+  },
+  // biological activity
+  {
+    overview:
+      " The interactive scientific educational games like Mega Quiz, scientific treasure hunt, scientific showdown gallary of poster and model exhibition focused on basic biological topics, challenging participants' scientific knowledge and problem-solving abilities and having little fun.",
+    eligibility: "Open to all",
+    rules: [""],
+    entry_fee: [""],
+    prize_money: [""],
+    judging_criteria: [""],
+    regbtn: "#",
   },
 ];
 
