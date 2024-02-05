@@ -20,8 +20,10 @@ body {
   color: white;
   font-family: 'Recursive', sans-serif;;
 }
+@media only screen and (min-width: 769px) {
 ::-webkit-scrollbar {
   display: none;
+}
 }
 #hero {
   position: relative;

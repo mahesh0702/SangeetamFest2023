@@ -374,10 +374,10 @@ let rulesAndReg = [
     overview:
       "An adventurous and exciting game that tests problem-solving and teamwork, the Treasure Hunt leads teams on a quest to find hidden treasures around the campus.",
     eligibility: "Open to all",
-    rules: [""],
-    entry_fee: [""],
-    prize_money: [""],
-    judging_criteria: [""],
+    rules: ["To be told on the spot"],
+    entry_fee: ["if there will be told on the spot only"],
+    prize_money: ["Not announced yet"],
+    judging_criteria: ["Not announced yet"],
     regbtn: "https://forms.gle/59tAoTiL4V2fDMiq6",
   },
   {
@@ -430,10 +430,7 @@ let rulesAndReg = [
     // freestyle dance (solo)
     overview:
       "A showcase for dancers to express themselves freely, blending various dance styles. ",
-    eligibility: [
-      "Open to all. ",
-      "Participants can participate individually or in duets. ",
-    ],
+    eligibility: ["Open to all participants participate individually."],
     rules: [
       "All participants must agree to abide by the rules of the competition. ",
       "The decision of the judges final and binding.",
@@ -442,54 +439,77 @@ let rulesAndReg = [
     ],
 
     entry_fee: [
-      "Rs 400 for both Solo and duet.",
+      "Rs 400 for both Solo",
       "Registration can be done online or at the registration desk on the day of the competition (to be Decided for desk registration). ",
     ],
     prize_money: [
-      "Rs.2000, attractive gifts, and certificates of excellence.  ",
+      "Rs.2000",
+      "Attractive gifts",
+      "Certificates of excellence.  ",
     ],
-    judging_criteria: [
-      "	Originality, technique, synchronization (for duet), and overall performance. ",
-    ],
+    judging_criteria: ["	Originality", "Technique", "Overall performance. "],
     add_info: [
-      "Solo performances have a maximum duration of 5 minutes; duets have also the same time limit.  ",
+      "Solo performances have a maximum duration of 5 minutes",
       "	Offensive language in music is strictly prohibited. ",
     ],
     regbtn: "https://forms.gle/FycarAcFhfpFcxVL9",
   },
   {
-    //nritya navrang
+    //Law Game
     overview:
-      "Celebrating the rich cultural heritage of India, this event is for those who perform traditional and folk dances.",
-    eligibility: " Solo performers or groups of up to 6 participants.",
+      "Welcome to 'Let's Law It' an innovative gaming competition that brings together legal minds, strategic thinkers, and enthusiasts for an exciting intersection of law and gaming. This event challenges participants to navigate a virtual legal world, solving complex cases, making ethical decisions, and showcasing their legal acumen in a dynamic and engaging format.",
+    eligibility:
+      "Any Student pursuing Integrated five years or three-year LL.B. programme.Team participation is mandatory. ",
     rules: [
-      "The maximum duration of the performance is 5 minutes.  Language for music can be Hindi, English, or any regional language.  Offensive language in music is strictly prohibited.",
+      "Each team shall compose of three participants.",      "Mandatory participation in all three activities for each team is required." ,
+      "No books, statue, electronic gadget or judgement can be referred for giving answers in quiz or picture depiction." ,
+      "A maximum of 30 seconds shall be given for answering quiz and picture depiction.",
+      "A minimum of 3 minutes shall be allocated for declamation.",
+      "Only legal questions and topics will be part of activity.",
+      "Famous legal personalities will be part of picture depiction.",
+      "Formal black coat with tie is a mandatory pre-requisite for each team.",
+      "A minimum of 20 minutes shall be given to each team before declamation for preparation of topic to speak in the competition.",
+      "Only one speaker from each team shall speak during declamation competition. ",
     ],
     entry_fee: [
-      " ₹200 for Shobhitians, ₹400 for participants from other institutes.",
+      "Fees for Registration is Rs. 600 per team for participation in all three activities." ,
+      "Registration can be done both in online and offline mode.",
     ],
-    prize_money: [" ₹5000 for the best performance. "],
+    prize_money: [" ₹4000/- for each winning team and a certificate of excellence."],
     judging_criteria: [
-      "Authenticity, costumes, expression, and adherence to the traditional dance form. ",
+      "Knowledge",
+      "Confidence",
+      "Clarity of Concept",
+      "Presentability",
+      "Adherence to the legal topic",
+      "Creativity",
+      "Teamwork"
     ],
-    regbtn: "https://forms.gle/j8xLYqZLqQiA2SsT8",
+    add_info:["Venue:",
+    "Moot Court Hall, SLCS Building, SIET, Meerut"],
+    regbtn: "https://forms.gle/FcvAjHcYG4tkBQyU7",
   },
   {
-    // murals of melody (wall painting)
+    // rap battle
     overview:
-      " An event for artists to create large-scale paintings live, this contest encourages creativity on a grand scale.",
-    eligibility: " Groups of up to 4 participants.",
+      " A dynamic competition where individuals showcase their rap skills and lyrical creativity.",
+    eligibility: "  Open to solo rappers from any college or university",
     rules: [
-      " Maximum painting time is 45 minutes.  Themes must be positive and must not potentially hurt regional or other sentiments 	Language for any text in the painting can be Hindi, English, or any regional language.",
+      " The competition will be in two rounds:",
+      "In the first-round judges will select only top three participants",
+      "Second round will be the final round",
+      "Performances must not exceed 4 minutes.",
+      "Lyrics must be original and free of any offensive language.",
+      "Instrumental tracks are allowed but must be submitted in advance for approval.",
     ],
-    entry_fee: [
-      " ₹100 for Shobhitians, ₹200 for participants from other institutes.",
-    ],
+    entry_fee: ["₹200 per participants."],
 
-    prize_money: [
-      " ₹3000 for the group with the most impactful and creative wall painting.",
+    prize_money: ["Attractive Gift hampers."],
+    judging_criteria: [
+      "Lyrics originality, creativity, flow and wordplay.",
+      "Delivery: stage presence, confidence, energy and vocal ability.",
+      "Over all performances: over all impact, engagement of the audience.",
     ],
-    judging_criteria: [" Creativity, message, technique, and visual impact."],
     regbtn: "https://forms.gle/dJcZTgQGM5cnd5bJ8",
   },
   {
@@ -601,17 +621,17 @@ let rulesAndReg = [
   {
     // rhythm rebellion(beat boxing)
     overview:
-      "Contestants display their beat boxing prowess, using vocal percussion to create beats and rhythms.",
-    eligibility: "Open to all.",
+      "The Business Case Study competition is a test of analytical and strategic thinking, challenges teams to analyze real-world business scenarios and, propose and presents solutions.",
+    eligibility: "Teams of up to 4 individuals.",
     rules: [
-      "The minimum performance duration is 1 minute.",
-      "No offensive language or sounds; maintain a positive atmosphere.",
-      "Participants may use microphones provided but no other electronic devices.",
+      "Details and guidelines for the case study will be provided on the day of the competition.", "Teams must prepare and present their analysis and recommendations within a specified time frame of 3 hours.",
     ],
 
-    entry_fee: [" ₹200 for each participant. "],
-    prize_money: ["Attractive gift hampers, certificates and more."],
-    judging_criteria: ["musicality", "Originality", " stage presence."],
+    entry_fee: ["₹600 for each team."],
+    prize_money: [" ₹5000 for the team with the best analysis and solution presentation",
+    "Certificate of excellence."],
+    judging_criteria: ["Analytical depth", "Feasibility of recommendations", "presentation skills",  "Q&A performance."],
+    add_info:["For furthermore details please contact the coordinators."],
     regbtn: "https://forms.gle/MseBLcXkMDirPqUB9",
   },
   {
@@ -628,7 +648,7 @@ let rulesAndReg = [
       "Genre of movie can be drama, comedy, documentary, animation, etc.",
     ],
 
-    entry_fee: [": ₹500 per team."],
+    entry_fee: ["₹500 per team."],
     judging_criteria: [
       "Storytelling",
       "Cinematography",
@@ -638,7 +658,8 @@ let rulesAndReg = [
     ],
     prize_money: ["Attractive Gift hampers"],
     add_info: [
-      "Submission Requirements: Deadline for submission is 11:00 AM on 10th Feb. 2024",
+      "Submission Requirements:",
+      "Deadline for submission is 11:00 AM on 10th Feb. 2024",
       "Send your entries at mail id of sangeetam:- sangeetam@shobhituniversity.ac.in",
       "Originality: Emphasize the importance of original content and discourage plagiarism. Outline consequences for using copyrighted material without permission.",
     ],
@@ -673,22 +694,62 @@ let rulesAndReg = [
     overview:
       "A mock crime scene investigation to explore the complexity of psychology behind criminal Minds which is taken from the branch of criminal psychology",
     eligibility: "Open to all",
-    rules: [""],
-    entry_fee: [""],
-    prize_money: [""],
-    judging_criteria: [""],
-    regbtn: "#",
+    rules: [
+      "All participants must agree to abide by the rules of the competition.",
+      "The decision of the judges is final & binding.",
+      "The Organizers reserve the right to modify the rules or cancel the competition at any time without any prior notice.",
+    ],
+    entry_fee: ["₹400 per team."],
+    prize_money: ["₹2000 for winning team."],
+    judging_criteria: [
+      "The team that solves the maximum cases will be considered along with their teamwork",
+      "Problem-solving skills within given time.",
+    ],
+    regbtn: "https://forms.gle/NjF3y5UFTXPqTHBx5",
   },
   // biological activity
   {
     overview:
       " The interactive scientific educational games like Mega Quiz, scientific treasure hunt, scientific showdown gallary of poster and model exhibition focused on basic biological topics, challenging participants' scientific knowledge and problem-solving abilities and having little fun.",
-    eligibility: "Open to all",
-    rules: [""],
-    entry_fee: [""],
-    prize_money: [""],
-    judging_criteria: [""],
-    regbtn: "#",
+    eligibility:
+      "Open to all ,Participants can Participate Individually or in Team.,Max. Number of Participants per team 4.",
+    rules: [
+      "All participants must agree to abide by the rules of the competition.",
+      "The decision of the judges is final & binding.",
+      "The Organizers reserve the right to modify the rules or cancel the competition at any time without any prior notice.",
+    ],
+    entry_fee: ["₹200 per participant"],
+    prize_money: ["Attractive Hamper and Certificate for all"],
+    judging_criteria: [
+      "Overall Presentation",
+      "Problem Solving Skill",
+      "Critical Thinking",
+    ],
+    add_info: [
+      "Competition Format :",
+      "✔Mega Quiz:",
+      "Quiz will be in two rounds",
+      "Round 1:",
+      "Will be held online at same time on Kahoot app/website.",
+      "Short listed teams will be goes to round 2.",
+      "Round 2:",
+      "Rapid fire round:- It will be held offline on projector (image will be shown and teams will have to answer 1st. The team having highest point will be declared as winner.",
+      "✔Scientific Treasure Hunt :",
+      "Clues will be given based on the science and technology (10+2 level) for finding the treasure.",
+      "The team which will find the treasure at earliest will be declared as winner.",
+
+      "✔Poster Presentation :",
+      "Participant have two options either make digital poster or get printed Poster (size : 4*4 feet).",
+      "5 minutes to each participants is given to Present the Poster.",
+      "Presentation should be offline.",
+      "Best poster will be declared as winner.",
+
+      "✔Model Exhibition :",
+      "Participants have to bring the working/Non-working model.",
+      "5 minutes presentation time for model.",
+      "Best model will be declared as winner.",
+    ],
+    regbtn: "https://forms.gle/bMq9ByRw3ButRtax8",
   },
 ];
 
